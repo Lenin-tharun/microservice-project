@@ -1,0 +1,257 @@
+Create Project API
+******************
+Endpoint
+1)Method: POST
+
+2)URL: /projects
+
+3)Authorization: Bearer Token (JWT-based)
+
+Request Body (JSON Format)
+**************************
+eg:
+{
+  "name": "New Project",
+  "description": "This is a new project",
+  "customer_id": 1,
+  "status": "Active",
+  "tenant_id": 1001
+}
+
+Request Body Parameters:
+name (string): The name of the project.
+
+Example: "New Project"
+
+Required: Yes
+
+description (string): A detailed description of the project.
+
+Example: "This is a new project"
+
+Required: Yes
+
+customer_id (integer): The ID of the customer associated with the project.
+
+Example: 1
+
+Required: Yes
+
+status (string, enum: Active or Inactive): The status of the project.
+
+Example: "Active"
+
+Required: Yes
+
+tenant_id (integer): The tenant ID associated with the project, used for multi-tenancy.
+
+Example: 1001
+
+Required: Yes
+
+
+
+
+
+
+Response (Success - Status Code: 201 Created)
+=====================================
+eg;
+{
+  "id": "1",
+  "name": "New Project",
+  "description": "This is a new project",
+  "customer_id": 1,
+  "status": "Active",
+  "tenant_id": 1001
+}
+
+Error Responses (Failure)
+==========================
+Status Code: 400 Bad Request – This will occur if any required fields are missing or the input is invalid.
+Example Response:
+{
+  "error": "Validation error: 'name' is required."
+}
+
+Status Code: 401 Unauthorized – If the JWT token is missing or invalid.
+Example Response:
+{
+  "error": "Unauthorized access"
+}
+
+status Code: 500 Internal Server Error – If an error occurs while processing the request (e.g., database error).
+Example Response:
+{
+  "error": "An unexpected error occurred"
+}
+
+
+Authentication & Authorization
+==============================
+The endpoint requires authentication via a Bearer token in the Authorization header.
+
+Make sure to pass a valid JWT token when making the request.
+Customer Microservice
+
+http://localhost:9000/api/customers
+
+API Endpoints:
+===============************===============***********=========================
+1. Create Customer
+===================
+Endpoint: POST /customers
+
+Description: This endpoint creates a new customer record.
+
+
+
+
+
+
+
+Request Body:
+{
+  "customer_type": "business",
+  "primary_contact": "lenin",
+  "company_name": "simpro",
+  "display_name": "XYZ",
+  "email_address": "Simpro@gmail.com",
+  "work_phone": "1234567890",
+  "mobile_number": "0987654321",
+  "pan": "ABCDE1234F",
+  "currency": "USD",
+  "opening_balance": 1000,
+  "payment_terms": 30,
+  "website_url": "https://companyxyz.com",
+  "department": "Sales",
+  "designation": "Manager",
+  "twitter": "@xyz",
+  "skype_name": "Simpro_skype",
+  "facebook": "simpro.fbook",
+  "billing_address": {
+    "street": "no 42, kovil street madhavaram porur",
+    "city": "chennai",
+    "postal_code": "600056"
+  },
+  "shipping_address": {
+    "street": "no 42, kovil street madhavaram porur",
+    "city": "chennai",
+    "postal_code": "600056"
+  },
+  "contact_person": {
+    "name": "gokul",
+    "phone": "789456123"
+  },
+  "remarks": "New customer",
+  "custom_fields": {
+    "custom_field_1": "value1",
+    "custom_field_2": "value2"
+  },
+  "status": "inactive",
+  "tenant_id": 5
+}
+
+2.Get All Customers
+===================
+GET: http://localhost:9000/api/customers
+
+3. Get Customer by ID
+=====================
+GET: http://localhost:9000/api/customers/id
+
+4. Get Customer by Tenant ID
+============================
+GET: http://localhost:9000/api/customers/tenant/:tenant_id
+
+5. Update Customer by ID
+========================
+PUT: http://localhost:9000/api/customers/id
+
+6.Delete Customer by ID
+=======================
+Delete: http://localhost:9000/api/customers/id
+
+==========***************================*****************==============
+
+Project-microserver
+
+http://localhost:8002/api/projects
+
+API Endpoints:
+
+1. Create Projects
+===================
+Endpoint: POST /Projects
+
+Description: This endpoint creates a new projects record.
+
+Request Body:
+{
+  "project_code": "PRJ-001",
+  "name": "New Project",
+  "customer_id": "77169c21-0d0b-43b0-9b6e-0622ac3b68cd",
+  "description": "This is a sample project.",
+  "due_date": "2025-04-01T12:00:00Z",
+  "status": "Active",
+  "tenant_id": "02118159-332f-4ccc-8576-6216b7835e18"
+}
+
+2.project-forms
+================
+
+{
+      "form_config": {
+    "fields": [
+      { "label": "ss", "type": "text", "required": true },
+      { "label": "tha@", "type": "email", "required": false }
+    ]
+  },
+  "tenant_id": 1002
+}
+
+
+
+project_users
+=============
+
+http://localhost:8002/api/project_users
+
+{
+  "project_id": "e7f1a2c4-16b9-4d9e-b63b-29c9a28b5856",
+  "user_uuid": "123e4567-e89b-12d3-a456-426614174000",
+  "tenant_id": "a5a62c5e-729f-4e6a-939b-c16b45f46957"
+}
+
+
+Tasks
+=====
+http://localhost:8002/api/tasks
+{
+  "task_name": "Complete Documentation",
+  "description": "Finish the documentation for the project management microservice",
+  "due_date": "2025-04-10",
+  "project_id": "e7f1a2c4-16b9-4d9e-b63b-29c9a28b5856",
+  "tenant_id": "a5a62c5e-729f-4e6a-939b-c16b45f46957",
+  "created_by": "123e4567-e89b-12d3-a456-426614174000"
+}
+
+Timesheet_users
+================
+http://localhost:8002/api/timesheet_users
+{
+"timesheet_id": "e7f1a2c4-16b9-4d9e-b63b-29c9a28b5856",
+  "user_uuid": "123e4567-e89b-12d3-a456-426614174000",
+  "tenant_id": "a5a62c5e-729f-4e6a-939b-c16b45f46957"
+}
+
+
+Timesheet_users
+===============
+http://localhost:8002/api/timesheet
+{
+  "task_id": "e7f1a2c4-16b9-4d9e-b63b-29c9a28b5856",
+  "start_time": "2025-04-01T08:00:00Z",
+  "end_time": "2025-04-01T10:00:00Z",
+  "tenant_id": "a5a62c5e-729f-4e6a-939b-c16b45f46957"
+}
