@@ -56,7 +56,7 @@ import timesheetUsersRoutes from "./routes/timesheet_users_routes.js"
 dotenv.config();
 
 const app = express();
-// ✅ Attach logging middleware
+// ✅ Attach logging middleware 
 app.use(requestLogger);
 app.use(responseLogger);
 

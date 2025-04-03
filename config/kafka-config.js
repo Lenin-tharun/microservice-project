@@ -1,4 +1,4 @@
-/*import { Kafka } from 'kafkajs';
+import { Kafka } from 'kafkajs';
 import config from './env-config.js';
 
 const kafka = new Kafka({
@@ -12,5 +12,5 @@ const consumer = kafka.consumer({ groupId: 'project-group' });
 await producer.connect();
 await consumer.connect();
 
-export { kafka, producer, consumer };*/
+export { kafka, producer, consumer };
  

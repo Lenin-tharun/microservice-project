@@ -6,14 +6,7 @@ export const projectModel = {
   createProject: async (project_code, name, customer_id, description, due_date, status, tenant_id) => {
     try {
 
-      // Trim the customerId and tenantId to remove any extra spaces before validating
-      customer_id = customer_id.trim();
-      tenant_id = tenant_id.trim();
-
-      if (!isUuid(customer_id) || !isUuid(tenant_id)) {
-        throw new Error("Invalid UUID format for customer_id or tenant_id");
-      }
-
+     
       const query = `
         INSERT INTO projects (project_code, name, customer_id, description, due_date, status, created_at, updated_at, tenant_id)
         VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW(), $7) 
@@ -42,10 +35,7 @@ export const projectModel = {
   // ✅ Get Project by ID
   getProjectById: async (id) => {
     try {
-      if (!isUuid(id)) {
-        throw new Error("Invalid UUID format for project ID");
-      }
-
+      
       const query = `SELECT * FROM projects WHERE id = $1;`;
       const result = await executeQuery(query, [id]);
       return result[0] || null;

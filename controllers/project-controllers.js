@@ -5,17 +5,7 @@ export const projectController = {
   createProject: async (req, res) => {
     try {
       const data = req.body;
-
-      console.log("[DEBUG] Incoming Data:", data);
-
-      //console.log("[DEBUG] Type Check:", typeof data.customer_id, typeof data.tenant_id);
-
-
-      // Validate UUID format for customer_id and tenant_id
-      if (!isUUID(data.customer_id) || !isUUID(data.tenant_id)) {
-        return res.status(400).json({ success: false, message: "Invalid UUID format for customer_id or tenant_id" });
-      }
-
+     
       const projects = await projectService.createProject(data);
       res.status(201).json({ success: true, data: projects, message: "Project created successfully" });
     } catch (error) {

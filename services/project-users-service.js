@@ -1,4 +1,4 @@
-import  {projectUsersModel}  from "../models/project-users-model.js";
+import  { projectUsersModel }  from "../models/project-users-model.js";
 
 export const projectuserService = {
   // Save a new project-user association
@@ -20,4 +20,5 @@ export const projectuserService = {
       throw new Error(error.message || "Error getting project users");
     }
   },
+  
 };

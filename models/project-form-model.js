@@ -1,4 +1,4 @@
-import pool from "../config/db-config.js"
+import { executeQuery } from "../utils/query-Executer.js";
 
 
 export const ProjectFormModel = {
@@ -15,10 +15,10 @@ export const ProjectFormModel = {
         `;
 
         try {
-            const { rows } = await pool.query(query, [JSON.stringify(form_config), tenant_id]);
+            const result = await executeQuery(query, [JSON.stringify(form_config), tenant_id]);
 
-            if (rows.length > 0) {
-                return rows[0]; // Return the created or updated form
+            if (result.length > 0) {
+                return result[0]; // Return the created or updated form
             }
             throw new Error("Failed to create or update project form.");
         } catch (err) {
@@ -29,17 +29,14 @@ export const ProjectFormModel = {
 
     // Get project form by ID
     getProjectFormById: async (id) => {
-        if (!id) {
-            throw new Error('Project form ID is required.');
-        }
-
+       
         try {
-            const { rows } = await pool.query("SELECT * FROM project_forms WHERE id = $1", [id]);
+            const result = await executeQuery("SELECT * FROM project_forms WHERE id = $1", [id]);
             
-            if (rows.length === 0) {
+            if (result.length === 0) {
                 return null; // No form found with the given ID
             }
-            return rows[0]; // Return the project form
+            return result[0]; // Return the project form
         } catch (err) {
             console.error('❌ Error fetching project form by ID:', err);
             throw new Error('Error fetching project form: ' + err.message);
@@ -48,17 +45,14 @@ export const ProjectFormModel = {
 
     // Get project form by TENANT_ID
     getProjectFormByTenantId: async (tenant_id) => {
-        if (!tenant_id) {
-            throw new Error('Project form tenant_id is required.');
-        }
-
+       
         try {
-            const { rows } = await pool.query("SELECT * FROM project_forms WHERE tenant_id = $1", [tenant_id]);
+            const result = await executeQuery("SELECT * FROM project_forms WHERE tenant_id = $1", [tenant_id]);
             
-            if (rows.length === 0) {
+            if (result.length === 0) {
                 return null; // No form found with the given ID
             }
-            return rows[0]; // Return the project form
+            return result[0]; // Return the project form
         } catch (err) {
             console.error('❌ Error fetching project form by tenant_id:', err);
             throw new Error('Error fetching project form: ' + err.message);
@@ -68,20 +62,16 @@ export const ProjectFormModel = {
 
     // Update project form by ID
     updateProjectForm: async (id, form_config) => {
-        if (!id || !form_config) {
-            throw new Error('Project form ID and form configuration are required.');
-        }
-
         const query = 'UPDATE project_forms SET form_config = $1, updated_at = NOW() WHERE id = $2 RETURNING *';
         
         try {
-            const { rows } = await pool.query(query, [JSON.stringify(form_config), id]);
+            const result = await executeQuery(query, [JSON.stringify(form_config), id]);
 
-            if (rows.length === 0) {
+            if (result.length === 0) {
                 throw new Error("Project form not found.");
             }
 
-            return rows[0]; // Return the updated project form
+            return result[0]; // Return the updated project form
         } catch (err) {
             console.error('❌ Error updating project form:', err);
             throw new Error('Error updating project form: ' + err.message);
