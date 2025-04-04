@@ -11,7 +11,7 @@ export const timesheetController = {
           message: "Missing required fields: task_id and tenant_id",
         });
       }
-      const timesheet = await timesheetService.startOrResumeTask({ task_id, tenant_id });
+      const timesheet = await timesheetService.startOrResumeTask( task_id, tenant_id );
       return res.status(201).json({
         success: true,
         data: timesheet,
@@ -29,14 +29,14 @@ export const timesheetController = {
   // Pause or stop a task (update the timesheet entry by setting end_time)
   pauseOrStopTask: async (req, res) => {
     try {
-      const { task_id } = req.body;
-      if (!task_id) {
+      const { id } = req.params;
+      if (!id) {
         return res.status(400).json({
           success: false,
           message: "Missing required field: task_id",
         });
       }
-      const timesheet = await timesheetService.pauseOrStopTask({ task_id });
+      const timesheet = await timesheetService.pauseOrStopTask(id);
       return res.status(200).json({
         success: true,
         data: timesheet,
@@ -50,6 +50,19 @@ export const timesheetController = {
       });
     }
   },
+
+  createLoginTime: async (req, res) => {
+    try {
+      const { task_id, tenant_id, start_time, end_time } = req.body;
+     
+      const loginTime = await timesheetService.createLoginTime(task_id, tenant_id, start_time, end_time);
+      res.status(201).json({ success: true, data: loginTime, message: "loginTime created successfully" });
+    } catch (error) {
+      console.error("[ERROR] createLoginTime:", error);
+      res.status(500).json({ success: false, message: error.message });
+    }
+  },
+
 
   // Get all timesheet entries
   getAllTimesheets: async (req, res) => {

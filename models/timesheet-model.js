@@ -4,7 +4,7 @@ export const timesheetModel = {
   // CREATE TIMESHEET ENTRY: Start or resume a task
   startOrResumeTask: async (task_id, tenant_id) => {
     const query = `
-      INSERT INTO timesheet (task_id, tenant_id, start_time)
+      INSERT INTO timesheets (task_id, tenant_id, start_time)
       VALUES ($1, $2, NOW())
       RETURNING *;
     `;
@@ -12,18 +12,21 @@ export const timesheetModel = {
 
     try {
       const result = await executeQuery(query, values);
-      return result.rows[0];
+      return result[0];
     } catch (error) {
       console.error("Error creating timesheet entry:", error.message);
       throw new Error("Database error while creating timesheet entry");
     }
   },
 
+ 
   // PAUSE OR STOP TASK: Update timesheet entry (only if end_time is still NULL)
   pauseOrStopTask: async (task_id) => {
     const query = `
-      UPDATE timesheet 
-      SET end_time = NOW(), updated_at = NOW()
+      UPDATE timesheets
+      SET end_time = NOW(),
+       updated_at = NOW(),
+       duration = NOW() -start_time
       WHERE task_id = $1 AND end_time IS NULL
       RETURNING *;
     `;
@@ -31,16 +34,35 @@ export const timesheetModel = {
 
     try {
       const result = await executeQuery(query, values);
-      return result.rows[0];
+      return result;
     } catch (error) {
       console.error("Error updating timesheet entry:", error.message);
       throw new Error("Database error while updating timesheet entry");
     }
   },
 
+
+  createLoginTime : async (task_id, start_time, end_time, tenant_id) => {
+    try{
+    const query = `
+      INSERT INTO timesheets (task_id, start_time, end_time, tenant_id,)
+      VALUES ($1, $2, $3, $4)
+      RETURNING *, 
+        EXTRACT(EPOCH FROM (COALESCE($4, NOW()) - $3)) AS duration;
+    `;
+    const values = [task_id, start_time, end_time, tenant_id];
+      const result = await executeQuery(query, values);
+      return result[0]; // Returning the first inserted row
+    } catch (error) {
+      console.error("Error inserting login time:", error.message);
+      throw new Error("Database error while inserting login time");
+    }
+  },
+  
+
   // GET ALL TIMESHEETS (No Pagination)
   getAllTimesheets: async () => {
-    const query = "SELECT * FROM timesheet ORDER BY created_at DESC";
+    const query = "SELECT * FROM timesheets ORDER BY created_at DESC";
     try {
       const result = await executeQuery(query);
       return result.rows;
@@ -52,7 +74,7 @@ export const timesheetModel = {
 
   // GET TIMESHEET BY ID
   getTimesheetById: async (timesheetId) => {
-    const query = "SELECT * FROM timesheet WHERE id = $1";
+    const query = "SELECT * FROM timesheets WHERE id = $1";
     const values = [timesheetId];
     try {
       const result = await executeQuery(query, values);
@@ -67,20 +89,25 @@ export const timesheetModel = {
   getTimesheetByTenantId: async (tenant_id) => {
     const query = `
       SELECT 
-        p.id AS project_id,
-        p.name AS project_name,
-        p.customer_id,
-        t.id AS task_id,
-        t.task_name,
-        TO_CHAR(
-          INTERVAL '1 second' * COALESCE(SUM(EXTRACT(EPOCH FROM (COALESCE(ts.end_time, NOW()) - ts.start_time))), 0), 
-          'HH24:MI'
-        ) AS total_time_spent
-      FROM projects p
-      JOIN tasks t ON p.id = t.project_id
-      LEFT JOIN timesheet ts ON t.id = ts.task_id
-      WHERE p.tenant_id = $1
-      GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
+    p.id AS project_id,
+    p.name AS project_name,
+    p.customer_id,
+    t.id AS task_id,
+    t.task_name,
+    TO_CHAR(
+        INTERVAL '1 second' * COALESCE(SUM(EXTRACT(EPOCH FROM (COALESCE(ts.end_time, NOW()) - ts.start_time))), 0), 
+        'HH24:MI'
+    ) AS total_time_spent,
+    CASE 
+        WHEN COUNT(CASE WHEN ts.end_time IS NULL THEN 1 END) > 0 
+        THEN 'Running' 
+        ELSE 'Not Running' 
+    END AS status
+FROM projects p
+JOIN tasks t ON p.id = t.project_id
+LEFT JOIN timesheets ts ON t.id = ts.task_id
+WHERE p.tenant_id = $1
+GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
     `;
     const values = [tenant_id];
     try {
@@ -125,7 +152,7 @@ export const timesheetModel = {
 
     values.push(timesheetId); // For the WHERE clause
     const query = `
-      UPDATE timesheet 
+      UPDATE timesheets 
       SET ${fields.join(", ")}, updated_at = NOW() 
       WHERE id = $${index} 
       RETURNING *;
@@ -144,7 +171,7 @@ export const timesheetModel = {
   deleteTimesheet: async (timesheetId) => {
     if (!timesheetId) throw new Error("Invalid timesheet ID");
 
-    const query = "DELETE FROM timesheet WHERE id = $1 RETURNING *";
+    const query = "DELETE FROM timesheets WHERE id = $1 RETURNING *";
     const values = [timesheetId];
     try {
       const result = await executeQuery(query, values);

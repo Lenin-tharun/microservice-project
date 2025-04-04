@@ -6,8 +6,10 @@ const router = express.Router();
 // Create a timesheet entry (start or resume a task)
 router.post("/", timesheetController.startOrResumeTask);
 
+router.post("/", timesheetController.createLoginTime);
+
 // Pause or stop a task (update timesheet entry)
-router.put("/pause", timesheetController.pauseOrStopTask);
+router.put("/:id", timesheetController.pauseOrStopTask);
 
 // Get all timesheet entries
 router.get("/", timesheetController.getAllTimesheets);

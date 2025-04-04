@@ -17,7 +17,7 @@ export const taskService = {
         due_date,
         project_id,
         tenant_id,
-        created_by
+        created_by,
       );
 
       return taskResult; 

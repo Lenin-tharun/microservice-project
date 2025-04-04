@@ -3,15 +3,15 @@ import { validate as isUuid } from "uuid";
 
 export const projectModel = {
   // ✅ Create Project
-  createProject: async (project_code, name, customer_id, description, due_date, status, tenant_id) => {
+  createProject: async (project_code, name, customer_id, description, due_date, status, tenant_id, created_by) => {
     try {
 
      
       const query = `
-        INSERT INTO projects (project_code, name, customer_id, description, due_date, status, created_at, updated_at, tenant_id)
-        VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW(), $7) 
+        INSERT INTO projects (project_code, name, customer_id, description, due_date, status, created_at, updated_at, tenant_id, created_by)
+        VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW(), $7, $8) 
         RETURNING *`;
-      const values = [project_code, name, customer_id, description, due_date, status, tenant_id];
+      const values = [project_code, name, customer_id, description, due_date, status, tenant_id, created_by];
 
       const result = await executeQuery(query, values);
       return result[0];
@@ -67,7 +67,7 @@ export const projectModel = {
         throw new Error("Invalid UUID format for tenant_id");
       }
 
-      const query = `SELECT * FROM projects WHERE status = $1 AND tenant_id = $2;`;
+      const query = `SELECT id as project_id, name FROM projects WHERE status = $1 AND tenant_id = $2;`;
       return await executeQuery(query, [status, tenantId]);
     } catch (error) {
       console.error("[ERROR] getProjectByStatusAndTenantId:", error.message);

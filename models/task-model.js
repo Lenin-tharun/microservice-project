@@ -52,7 +52,25 @@ export const taskModel = {
 
   getTasksByProjectId: async (project_id) => {
     try {
-      const query = "SELECT * FROM tasks WHERE project_id = $1 ORDER BY created_at DESC";
+      const query = `
+      SELECT 
+    t.id AS task_id,
+    t.task_name,
+    CASE 
+        WHEN EXISTS (
+            SELECT 1 
+            FROM timesheets ts 
+            WHERE ts.task_id = t.id 
+            AND ts.end_time IS NULL
+        ) 
+        THEN 'Running' 
+        ELSE 'Not Running' 
+    END AS status
+FROM tasks t
+WHERE t.project_id = $1  -- Filter tasks by project_id
+ORDER BY t.id;
+
+`;
       const values = [project_id];
       return await executeQuery(query, values);
     } catch (error) {

@@ -1,595 +1,215 @@
-[2025-03-17T06:04:47.256Z] INFO: [POST] /projects - Body: {"project_code":"855","name":"New Project","description":"This is a new project.","customer_id":1,"status":"Active","tenant_id":687}
-[2025-03-17T06:06:44.931Z] INFO: [POST] /projects - Body: {"project_code":"855","name":"New Project","description":"This is a new project.","customer_id":1,"status":"Active","tenant_id":687}
-2025-03-25 10:13:00 📤 [Request] OPTIONS /api/project/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:13:00 📤 [Request] POST /api/project/ | Status: 404 | IP: 192.168.31.96
-2025-03-25 10:14:19 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:14:19 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:23:23 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:23:23 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:26:11 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:26:11 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:31:48 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:31:48 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:34:32 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:34:32 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:36:46 📥 [Response] POST /projects | Status: 500 | Message: Error creating project
-2025-03-25 10:36:46 📤 [Request] POST /projects | Status: 500 | IP: 127.0.0.1
-2025-03-25 10:36:54 📥 [Response] POST /projects | Status: 201 | Message: Project created successfully
-2025-03-25 10:36:54 📤 [Request] POST /projects | Status: 201 | IP: 127.0.0.1
-2025-03-25 10:38:01 📤 [Request] POST /api/projects | Status: 404 | IP: 127.0.0.1
-2025-03-25 10:39:15 📤 [Request] OPTIONS /api/project/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:39:15 📤 [Request] POST /api/project/ | Status: 404 | IP: 192.168.31.96
-2025-03-25 10:40:23 📤 [Request] GET / | Status: 304 | IP: 192.168.31.96
-2025-03-25 10:40:23 📤 [Request] GET /favicon.ico | Status: 404 | IP: 192.168.31.96
-2025-03-25 10:40:56 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:40:56 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:40:56 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:41:45 📥 [Response] POST /api/projects | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:41:45 📤 [Request] POST /api/projects | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:42:13 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:42:13 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:42:33 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:42:33 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:42:33 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:43:22 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:43:22 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:43:22 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:44:11 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:44:11 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:44:11 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:44:59 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:44:59 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:44:59 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:46:27 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:46:27 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:46:27 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:46:31 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:46:31 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:47:44 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:49:21 📥 [Response] POST /api/projects/ | Status: 400 | Message: Missing required fields: projectCode, name, customerId, and tenantId are required.
-2025-03-25 10:49:21 📤 [Request] POST /api/projects/ | Status: 400 | IP: 192.168.31.96
-2025-03-25 10:51:37 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
-2025-03-25 10:51:49 📤 [Request] POST /api/projects/ | Status: - | IP: 192.168.31.96
-2025-03-25 10:51:53 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
-2025-03-25 11:38:48 📤 [Request] GET /api/user-organizations/organization/56338aad-ea70-4c32-99ba-516db6f9521f | Status: 404 | IP: 192.168.31.96
-2025-03-25 11:38:48 📤 [Request] GET /api/user-organizations/organization/56338aad-ea70-4c32-99ba-516db6f9521f | Status: 404 | IP: 192.168.31.96
-2025-03-26 10:33:18 📤 [Request] OPTIONS /api/auth/authenticate-user-by-form | Status: 204 | IP: 192.168.31.96
-2025-03-26 10:33:19 📤 [Request] POST /api/auth/authenticate-user-by-form | Status: 404 | IP: 192.168.31.96
-2025-03-26 10:33:20 📤 [Request] POST /api/auth/authenticate-user-by-form | Status: 404 | IP: 192.168.31.96
-2025-03-27 12:07:52 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:07:53 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:07:53 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:09:20 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:09:20 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:09:20 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:12:12 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:12:12 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:12:12 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:25:18 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:25:18 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:25:18 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:26:15 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:26:15 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:26:15 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:26:35 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:26:35 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:26:35 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:26:57 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:28:10 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:28:20 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:28:20 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:28:31 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:29:34 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:30:52 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:31:07 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:31:07 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:32:05 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:32:29 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:32:29 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:32:35 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:33:19 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:34:07 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:34:42 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:34:59 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:34:59 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:36:45 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:36:46 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:36:46 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:36:58 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:37:18 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:37:18 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:37:20 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:37:34 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:37:40 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:37:40 📤 [Request] POST /api/projects/ | Status: 500 | IP: 127.0.0.1
-2025-03-27 12:37:56 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:38:21 📤 [Request] POST /api/projects/ | Status: - | IP: 127.0.0.1
-2025-03-27 12:39:19 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating project
-2025-03-27 12:39:22 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:41:12 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 127.0.0.1
-2025-03-27 12:41:21 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
-2025-03-27 12:41:21 📤 [Request] POST /api/projects/ | Status: 201 | IP: 127.0.0.1
-2025-03-27 12:43:47 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:43:47 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:43:47 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:43:47 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:43:47 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:43:47 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:43:47 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:43:47 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:45:53 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:45:53 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:45:53 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:45:53 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:45:53 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:45:53 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:45:53 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:45:53 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:59:04 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:59:04 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:59:04 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:59:04 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:59:04 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 12:59:04 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 12:59:04 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 12:59:04 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:40 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 13:00:40 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:40 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:00:40 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:40 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:00:40 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:40 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 13:00:40 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:56 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 13:00:56 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:56 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:00:56 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:56 📥 [Response] GET /api/projects/Active | Status: 400 | Message: Invalid project ID
-2025-03-27 13:00:56 📤 [Request] GET /api/projects/Active | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:00:56 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:00:56 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:09:22 📥 [Response] GET /api/projects/status/Active?organizationId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 400 | Message: No message
-2025-03-27 13:09:22 📤 [Request] GET /api/projects/status/Active?organizationId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:09:22 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:09:22 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:09:23 📥 [Response] GET /api/projects/status/Active?organizationId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 400 | Message: No message
-2025-03-27 13:09:23 📤 [Request] GET /api/projects/status/Active?organizationId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:09:36 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:09:36 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:09:36 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:09:36 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:10:44 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:10:44 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:10:44 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:10:44 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:10:44 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:10:44 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:11:00 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:11:00 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:11:20 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:11:20 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:11:20 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:11:20 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:12:31 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:12:31 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:12:31 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:12:31 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:15:45 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:17:14 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:17:14 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:17:14 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:17:14 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:17:21 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:17:21 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 127.0.0.1
-2025-03-27 13:17:33 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: - | IP: 127.0.0.1
-2025-03-27 13:17:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:19:05 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:19:05 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:19:10 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:19:10 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:19:10 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:19:10 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 127.0.0.1
-2025-03-27 13:19:10 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:19:10 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:19:31 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:19:31 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:19:31 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:19:31 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:19:31 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:19:31 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:19:31 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: No message
-2025-03-27 13:19:31 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:21:43 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:21:43 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:21:43 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:21:43 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:21:48 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:21:48 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 127.0.0.1
-2025-03-27 13:21:49 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:21:49 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:22:18 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:22:18 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:22:18 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:22:18 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:22:22 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:22:22 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:22:23 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:22:23 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:23:11 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:23:11 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:23:11 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:23:11 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:23:11 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:23:11 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:23:11 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:23:11 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:23:30 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:23:30 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:23:30 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:23:30 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:23:30 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:23:30 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:23:30 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:23:30 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:24:09 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:24:09 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:24:09 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:24:09 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:24:10 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:24:10 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:24:10 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:24:10 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:25:32 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:25:32 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:25:32 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:25:32 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:25:32 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:25:32 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:25:32 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Error fetching project
-2025-03-27 13:25:32 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 127.0.0.1
-2025-03-27 13:25:42 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:25:42 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:25:42 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:25:42 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:25:42 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:25:42 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 127.0.0.1
-2025-03-27 13:25:42 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:25:42 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:30:48 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:30:48 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:30:48 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:30:48 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:30:48 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:30:48 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:30:48 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:30:48 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:32:45 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:32:45 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:32:45 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:32:45 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:32:45 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:32:45 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:32:45 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:32:45 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:33:33 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:33:33 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:33:33 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 13:33:33 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 13:33:33 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:33:33 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 13:33:33 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 13:33:33 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:29:04 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:29:04 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:29:04 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:29:04 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:29:04 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:29:04 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:29:04 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:29:04 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:29:15 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:29:15 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:30:36 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:30:36 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:30:36 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:30:36 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:30:36 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:30:36 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:30:36 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:30:36 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:30:39 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 14:30:39 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:31:36 📥 [Response] GET /api/tasks/filetr-by-project/ | Status: 400 | Message: Invalid task ID
-2025-03-27 14:31:36 📤 [Request] GET /api/tasks/filetr-by-project/ | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:31:36 📥 [Response] GET /api/tasks/filetr-by-project/ | Status: 400 | Message: Invalid task ID
-2025-03-27 14:31:36 📤 [Request] GET /api/tasks/filetr-by-project/ | Status: 400 | IP: 127.0.0.1
-2025-03-27 14:31:36 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:31:36 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:31:36 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:31:36 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:31:41 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 404 | IP: 127.0.0.1
-2025-03-27 14:33:25 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:33:25 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:36:49 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:36:49 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:36:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:36:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:36:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:36:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:40:25 📤 [Request] GET /api/tasks/filetr-by-project/669ffb93-394b-4749-8e30-98cf40334357 | Status: 404 | IP: 127.0.0.1
-2025-03-27 14:40:25 📤 [Request] GET /api/tasks/filetr-by-project/669ffb93-394b-4749-8e30-98cf40334357 | Status: 404 | IP: 127.0.0.1
-2025-03-27 14:42:21 📥 [Response] GET /api/tasks/filetr-by-project/9792b6ae-acda-4094-9535-0b03951f129e | Status: 500 | Message: Error fetching task
-2025-03-27 14:42:21 📤 [Request] GET /api/tasks/filetr-by-project/9792b6ae-acda-4094-9535-0b03951f129e | Status: 500 | IP: 127.0.0.1
-2025-03-27 14:42:21 📥 [Response] GET /api/tasks/filetr-by-project/9792b6ae-acda-4094-9535-0b03951f129e | Status: 500 | Message: Error fetching task
-2025-03-27 14:42:21 📤 [Request] GET /api/tasks/filetr-by-project/9792b6ae-acda-4094-9535-0b03951f129e | Status: 500 | IP: 127.0.0.1
-2025-03-27 14:45:25 📥 [Response] GET /api/tasks/filetr-by-project/ebd9da11-6248-485e-baf9-1cff776f0ee2 | Status: 200 | Message: No message
-2025-03-27 14:45:25 📤 [Request] GET /api/tasks/filetr-by-project/ebd9da11-6248-485e-baf9-1cff776f0ee2 | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:45:26 📥 [Response] GET /api/tasks/filetr-by-project/ebd9da11-6248-485e-baf9-1cff776f0ee2 | Status: 200 | Message: No message
-2025-03-27 14:45:26 📤 [Request] GET /api/tasks/filetr-by-project/ebd9da11-6248-485e-baf9-1cff776f0ee2 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:47:29 📥 [Response] GET /api/tasks/filetr-by-project/2c30452d-346a-4f75-83dd-8e57b9e1ae73 | Status: 200 | Message: No message
-2025-03-27 14:47:29 📤 [Request] GET /api/tasks/filetr-by-project/2c30452d-346a-4f75-83dd-8e57b9e1ae73 | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:47:29 📤 [Request] GET /api/tasks/filetr-by-project/2c30452d-346a-4f75-83dd-8e57b9e1ae73 | Status: - | IP: 127.0.0.1
-2025-03-27 14:47:31 📥 [Response] GET /api/tasks/filetr-by-project/2c30452d-346a-4f75-83dd-8e57b9e1ae73 | Status: 200 | Message: No message
-2025-03-27 14:47:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:47:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:47:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 14:47:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:49:11 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:49:11 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:49:11 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: - | IP: 127.0.0.1
-2025-03-27 14:49:13 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:49:41 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:49:41 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:49:42 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:49:42 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 14:56:03 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:56:03 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | IP: 127.0.0.1
-2025-03-27 14:56:03 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 14:56:03 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:05:23 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:05:23 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:05:23 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:05:23 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:05:30 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 15:05:30 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:05:30 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: No message
-2025-03-27 15:05:30 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:07:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:07:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:07:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:07:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:08:01 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:08:01 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | IP: 127.0.0.1
-2025-03-27 15:08:01 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:08:01 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:08:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:08:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:08:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:08:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:08:37 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:08:37 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:08:37 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:08:37 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:09:32 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:09:32 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:09:32 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:09:32 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:09:53 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:09:53 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:09:53 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 15:09:53 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:18:49 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:18:49 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:18:49 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:18:49 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:18:49 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:18:49 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:18:49 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:18:49 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:18:49 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:18:49 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:19:24 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:19:24 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:19:24 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:19:24 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:19:24 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:19:24 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:19:24 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:19:24 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:19:24 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:19:24 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:19:39 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:19:39 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:19:39 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:19:39 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:19:39 📥 [Response] GET /api/tasks/null | Status: 400 | Message: Invalid task ID
-2025-03-27 15:19:39 📤 [Request] GET /api/tasks/null | Status: 400 | IP: 127.0.0.1
-2025-03-27 15:19:39 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:19:39 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:19:39 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:19:39 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:24:59 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:24:59 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:24:59 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:24:59 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:24:59 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:24:59 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:24:59 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:24:59 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:24:59 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:30:45 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:30:45 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:30:51 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:51 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:51 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:51 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:55 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:55 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:55 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:55 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:55 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:30:55 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:30:55 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:30:55 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:30:55 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:58:06 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:58:06 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:58:06 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:58:06 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 15:58:06 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 15:58:07 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:07 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 15:58:07 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 15:58:07 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:00:52 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:00:52 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:00:52 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:00:52 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:00:52 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:00:52 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 16:00:52 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 16:00:52 📥 [Response] GET /api/tasks/filetr-by-project/undefined | Status: 500 | Message: Error fetching task
-2025-03-27 16:00:52 📤 [Request] GET /api/tasks/filetr-by-project/undefined | Status: 500 | IP: 127.0.0.1
-2025-03-27 16:01:28 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:01:28 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:01:28 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:33 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:01:33 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:01:33 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:33 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:01:33 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:01:33 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:39 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:01:39 📤 [Request] GET /api/user-organizations/organization/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 404 | IP: 127.0.0.1
-2025-03-27 16:01:39 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:01:39 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:39 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Successfully retrieved active tenant project
-2025-03-27 16:01:39 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:43 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 16:01:43 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:43 📥 [Response] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 16:01:43 📤 [Request] GET /api/tasks/filetr-by-project/efbb6019-695f-450b-b7ad-9c8a4496433c | Status: 304 | IP: 127.0.0.1
-2025-03-27 16:01:48 📥 [Response] GET /api/tasks/filetr-by-project/ff87d69b-63c1-4e44-9dc0-6536774b7b3e | Status: 200 | Message: Successfully retrieved project tasks
-2025-03-27 16:01:48 📤 [Request] GET /api/tasks/filetr-by-project/ff87d69b-63c1-4e44-9dc0-6536774b7b3e | Status: 200 | IP: 127.0.0.1
-2025-03-29 16:57:40 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project
-2025-03-29 16:57:40 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 16:59:50 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project
-2025-03-29 16:59:50 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:09:58 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project
-2025-03-29 17:09:58 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:12:34 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project
-2025-03-29 17:12:34 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:18:55 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:18:55 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:21:35 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:21:35 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:22:38 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:22:38 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:23:14 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:23:14 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:24:42 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:24:42 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:25:28 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:25:28 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-03-29 17:28:25 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:28:25 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-03-29 17:28:38 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:28:38 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-03-29 17:29:14 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:29:14 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-03-29 17:29:32 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-03-29 17:29:32 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 13:45:01 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 13:45:01 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:18:29 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:18:29 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:22:57 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:22:57 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:28:31 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:28:31 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:35:24 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:35:25 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:35:44 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:35:44 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 14:37:44 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 14:37:44 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 15:13:29 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:13:29 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 15:14:27 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:14:27 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 15:25:41 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:25:41 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 15:26:03 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:26:03 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 15:26:36 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:26:36 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 15:32:07 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:32:07 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 15:44:48 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-01 15:44:48 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-01 16:15:16 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 16:15:16 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 16:16:00 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 16:16:00 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-01 16:17:05 📥 [Response] POST /api/projects | Status: 400 | Message: Invalid UUID format for customer_id or tenant_id
-2025-04-01 16:17:05 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
-2025-04-03 12:46:46 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-03 12:46:46 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 12:47:52 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-03 12:47:53 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 12:52:20 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: Invalid UUID format for customer_id or tenant_id
-2025-04-03 12:52:20 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 13:07:41 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: invalid input syntax for type uuid: "This is a sample project."
-2025-04-03 13:07:41 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 13:45:16 📥 [Response] POST /api/projects | Status: 500 | Message: Cannot read properties of undefined (reading 'map')
-2025-04-03 13:45:16 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 13:48:14 📥 [Response] POST /api/projects | Status: 500 | Message: Cannot read properties of undefined (reading 'map')
-2025-04-03 13:48:14 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
-2025-04-03 15:39:05 📤 [Request] POST /api/projectform | Status: 404 | IP: 127.0.0.1
-2025-04-03 15:39:39 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form
-2025-04-03 15:39:39 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 15:50:26 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form
-2025-04-03 15:50:26 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 15:55:02 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form
-2025-04-03 15:55:02 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:01:13 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form
-2025-04-03 16:01:13 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:25:08 📥 [Response] POST /api/forms | Status: 500 | Message: projectFormService is not a function
-2025-04-03 16:25:08 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:27:11 📥 [Response] POST /api/forms | Status: 500 | Message: projectFormService is not a function
-2025-04-03 16:27:11 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:31:45 📥 [Response] POST /api/forms | Status: 500 | Message: projectFormService is not a function
-2025-04-03 16:31:45 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:34:08 📥 [Response] POST /api/forms | Status: 500 | Message: projectFormService is not a function
-2025-04-03 16:34:08 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:40:01 📥 [Response] POST /api/forms | Status: 500 | Message: projectFormService is not a function
-2025-04-03 16:40:01 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:42:40 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form: Error creating/updating project form: unrecognized configuration parameter "app.current_tenant"
-2025-04-03 16:42:40 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
-2025-04-03 16:45:17 📥 [Response] POST /api/forms | Status: 500 | Message: Error creating project form: Error creating/updating project form: new row violates row-level security policy for table "project_forms"
-2025-04-03 16:45:17 📤 [Request] POST /api/forms | Status: 500 | IP: 127.0.0.1
+2025-04-04 10:32:39 📤 [Request] GET / | Status: 200 | IP: 127.0.0.1
+2025-04-04 10:40:25 📤 [Request] GET / | Status: 200 | IP: 192.168.31.96
+2025-04-04 10:41:10 📤 [Request] GET / | Status: 304 | IP: 192.168.31.96
+2025-04-04 10:42:15 📤 [Request] OPTIONS /s/api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:42:16 📤 [Request] POST /s/api/projects/ | Status: 404 | IP: 192.168.31.96
+2025-04-04 10:43:19 📤 [Request] OPTIONS /s/api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:43:19 📤 [Request] POST /s/api/projects/ | Status: 404 | IP: 192.168.31.96
+2025-04-04 10:44:38 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:44:38 📥 [Response] POST /api/projects/ | Status: 500 | Message: Database error while saving project user
+2025-04-04 10:44:38 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 10:49:07 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:49:07 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating task
+2025-04-04 10:49:07 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 10:50:25 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:50:39 📤 [Request] POST /api/projects/ | Status: - | IP: 192.168.31.96
+2025-04-04 10:51:14 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating task
+2025-04-04 10:51:44 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:54:29 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 10:54:36 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating task
+2025-04-04 10:54:36 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 11:09:24 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:09:24 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:12:25 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:12:25 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:13:01 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:13:01 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:14:13 📤 [Request] POST /api/projects | Status: 400 | IP: 127.0.0.1
+2025-04-04 11:16:12 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:16:12 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:38:12 📥 [Response] POST /api/projects | Status: 500 | Message: Failed to create project: column "created_by" of relation "projects" does not exist
+2025-04-04 11:38:12 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:44:53 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:44:53 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:48:27 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:48:27 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:52:05 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:52:05 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:53:30 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:53:30 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:55:35 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:55:35 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:56:11 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:56:11 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 11:59:09 📥 [Response] POST /api/projects | Status: 500 | Message: Error creating task
+2025-04-04 11:59:09 📤 [Request] POST /api/projects | Status: 500 | IP: 127.0.0.1
+2025-04-04 12:02:19 📤 [Request] GET / | Status: 200 | IP: 127.0.0.1
+2025-04-04 12:02:19 📤 [Request] GET /favicon.ico | Status: 404 | IP: 127.0.0.1
+2025-04-04 12:08:48 📥 [Response] POST /api/projects | Status: 201 | Message: Project created successfully
+2025-04-04 12:08:48 📤 [Request] POST /api/projects | Status: 201 | IP: 127.0.0.1
+2025-04-04 12:16:50 📥 [Response] POST /api/projects | Status: 201 | Message: Project created successfully
+2025-04-04 12:16:50 📤 [Request] POST /api/projects | Status: 201 | IP: 127.0.0.1
+2025-04-04 12:26:52 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 12:26:53 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating task
+2025-04-04 12:26:53 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 12:27:24 📤 [Request] GET / | Status: 304 | IP: 127.0.0.1
+2025-04-04 12:28:59 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 12:29:00 📥 [Response] POST /api/projects/ | Status: 500 | Message: Error creating task
+2025-04-04 12:29:00 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 12:37:07 📤 [Request] GET / | Status: 304 | IP: 127.0.0.1
+2025-04-04 12:37:24 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 12:37:24 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-04 12:37:24 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.96
+2025-04-04 14:07:20 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:07:20 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:07:20 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:07:20 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:09:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:09:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-04 14:09:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:09:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:12:49 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:12:49 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:12:49 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:12:49 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:14:07 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:14:07 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:14:08 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:14:08 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:14:16 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:14:16 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-04 14:14:16 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:14:16 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:15:22 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:15:22 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:15:23 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:15:23 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:15:37 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:15:37 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:15:37 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 14:15:37 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 14:16:00 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:16:00 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:16:01 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:16:01 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:17:18 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:17:18 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:17:18 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:17:18 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:18:54 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:18:54 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:18:54 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:18:54 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:21:08 📤 [Request] OPTIONS /api/tasks/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 14:21:08 📥 [Response] POST /api/tasks/ | Status: 201 | Message: Task created successfully
+2025-04-04 14:21:08 📤 [Request] POST /api/tasks/ | Status: 201 | IP: 192.168.31.96
+2025-04-04 14:32:56 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:32:56 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:32:56 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:32:56 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:33:54 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:33:54 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:33:54 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:33:54 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:34:06 📤 [Request] GET /api/tasks/filetr-by-project/4947b226-1414-4e90-b04a-785227743a29 | Status: 404 | IP: 192.168.31.96
+2025-04-04 14:34:06 📤 [Request] GET /api/tasks/filetr-by-project/4947b226-1414-4e90-b04a-785227743a29 | Status: 404 | IP: 192.168.31.96
+2025-04-04 14:35:46 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:35:46 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | IP: 192.168.31.96
+2025-04-04 14:45:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:45:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:49:23 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:49:23 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:50:00 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:50:00 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:50:00 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:50:00 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:52:40 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:52:40 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:53:37 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:53:37 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:53:37 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 14:53:37 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:53:40 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:53:40 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | IP: 192.168.31.96
+2025-04-04 14:53:40 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:53:40 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 304 | IP: 192.168.31.96
+2025-04-04 14:54:27 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 500 | Message: Error fetching tasks by project ID
+2025-04-04 14:54:27 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 500 | IP: 192.168.31.96
+2025-04-04 14:55:27 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 14:55:27 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | IP: 192.168.31.96
+2025-04-04 14:56:53 📤 [Request] OPTIONS /api/timesheet/start-pause/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 14:56:53 📤 [Request] POST /api/timesheet/start-pause/ | Status: 404 | IP: 192.168.31.96
+2025-04-04 15:00:11 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:00:12 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Missing required fields: task_id and tenant_id
+2025-04-04 15:00:12 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:02:37 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:04:28 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:04:29 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Database error while creating timesheet entry
+2025-04-04 15:04:29 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:26:16 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:26:16 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Database error while creating timesheet entry
+2025-04-04 15:26:16 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:29:13 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:29:14 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Database error while creating timesheet entry
+2025-04-04 15:29:14 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:30:20 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:31:12 📤 [Request] POST /api/timesheet/ | Status: - | IP: 192.168.31.96
+2025-04-04 15:33:20 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:33:20 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-04 15:33:20 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.96
+2025-04-04 15:41:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 15:41:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 15:41:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-04 15:41:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-04 15:41:38 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 15:41:38 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | IP: 192.168.31.96
+2025-04-04 15:41:38 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-04 15:41:38 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 304 | IP: 192.168.31.96
+2025-04-04 15:49:12 📤 [Request] OPTIONS /api/timesheet/pause/ | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:49:13 📥 [Response] PUT /api/timesheet/pause/ | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 15:49:13 📤 [Request] PUT /api/timesheet/pause/ | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:52:50 📤 [Request] OPTIONS /api/timesheet/[object%20Object] | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:52:51 📥 [Response] PUT /api/timesheet/[object%20Object] | Status: 400 | Message: Missing required field: task_id
+2025-04-04 15:52:51 📤 [Request] PUT /api/timesheet/[object%20Object] | Status: 400 | IP: 192.168.31.96
+2025-04-04 15:53:22 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:53:22 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Cannot destructure property 'task_id' of 'req.parms' as it is undefined.
+2025-04-04 15:53:22 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:54:05 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:54:05 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Cannot destructure property 'id' of 'req.parms' as it is undefined.
+2025-04-04 15:54:05 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:55:01 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:55:01 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Cannot destructure property 'id' of 'req.parms' as it is undefined.
+2025-04-04 15:55:01 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:55:59 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:55:59 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: task_id is not defined
+2025-04-04 15:55:59 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:59:06 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:59:06 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: task_id is not defined
+2025-04-04 15:59:06 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 15:59:50 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 15:59:50 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: task_id is not defined
+2025-04-04 15:59:50 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:00:22 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:00:23 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 16:00:23 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:17:08 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:17:08 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 16:17:08 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:20:55 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:20:55 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 16:20:55 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:21:52 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:21:52 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 16:21:52 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:23:50 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:23:51 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-04 16:23:51 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 500 | IP: 192.168.31.96
+2025-04-04 16:35:38 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:39:12 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: - | IP: 192.168.31.96
+2025-04-04 16:40:16 📤 [Request] OPTIONS /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 204 | IP: 192.168.31.96
+2025-04-04 16:40:17 📥 [Response] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-04 16:40:17 📤 [Request] PUT /api/timesheet/cca55fed-e2ca-42c9-b204-177abcf89e6a | Status: 200 | IP: 192.168.31.96
+2025-04-04 17:11:33 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 17:11:33 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-04 17:11:33 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-04 17:11:33 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96

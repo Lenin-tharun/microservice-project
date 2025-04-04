@@ -15,6 +15,7 @@ export const timesheetService = {
     }
   },
 
+
   // PAUSE OR STOP TASK: Update the timesheet entry (set end_time)
   pauseOrStopTask: async ( task_id ) => {
     try {
@@ -27,6 +28,21 @@ export const timesheetService = {
       throw new Error(error.message || "Error pausing/stopping timesheet entry");
     }
   },
+
+  createLoginTime: async ( task_id, start_time, end_time, tenant_id ) => {
+    try {
+      if (!task_id || !tenant_id) {
+        throw new Error("Missing required fields: task_id and tenant_id");
+      }
+      // Business logic can be added here if needed
+      const loginTimeResult = await timesheetModel.createLoginTime(task_id, start_time, end_time, tenant_id);
+      return loginTimeResult;
+    } catch (error) {
+      console.error("Error creating Login_time entry:", error.message);
+      throw new Error(error.message || "Error creating Login_time entry");
+    }
+  },
+
 
   // GET ALL TIMESHEET ENTRIES (No pagination)
   getAllTimesheets: async () => {

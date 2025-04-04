@@ -7,7 +7,7 @@ export const projectService = {
   // ✅ CREATE PROJECT
   createProject: async (data) => {
     try {
-      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedUsers, tasks } = data;
+      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedUsers, tasks, created_by } = data;
       if (!isUuid(customer_id)) {
         throw new Error("Invalid UUID format for project ID");
       }
@@ -19,7 +19,8 @@ export const projectService = {
         description,
         due_date,
         status,
-        tenant_id
+        tenant_id,
+        created_by
       );
 
       // Save Project Users
@@ -35,16 +36,19 @@ export const projectService = {
       // Save Project Tasks
       const projectTask = await Promise.all(
         tasks.map(async (task) => {
-          return taskService.createTask(
-            task.taskName, // task name
-            task.description,
-            "",
-            projectResult.id, // project_id
-            tenant_id,
-            projectResult.id // created_by
-          );
+          const currentTask = {
+            task_name: task.taskName,           // Assuming the API expects 'name'
+            description: task.description,
+            status: "",                    // Add appropriate status key if needed
+            project_id: projectResult.id,
+            tenant_id: tenant_id,
+            due_date:due_date,
+            created_by
+          };
+          return taskService.createTask(currentTask);
         })
       );
+      
 
       return "Prjoect Successfully Saved";
     } catch (error) {
