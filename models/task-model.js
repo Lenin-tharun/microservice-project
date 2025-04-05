@@ -61,15 +61,17 @@ export const taskModel = {
             SELECT 1 
             FROM timesheets ts 
             WHERE ts.task_id = t.id 
-            AND ts.end_time IS NULL
+              AND ts.end_time IS NULL
         ) 
         THEN 'Running' 
         ELSE 'Not Running' 
-    END AS status
+    END AS status,
+    ts.notes
 FROM tasks t
-WHERE t.project_id = $1  -- Filter tasks by project_id
+LEFT JOIN timesheets ts 
+    ON ts.task_id = t.id AND ts.end_time IS NULL
+WHERE t.project_id = $1
 ORDER BY t.id;
-
 `;
       const values = [project_id];
       return await executeQuery(query, values);

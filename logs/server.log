@@ -213,3 +213,310 @@
 2025-04-04 17:11:33 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
 2025-04-04 17:11:33 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
 2025-04-04 17:11:33 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-05 10:56:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 10:56:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 10:56:06 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 10:56:06 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 10:58:57 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 10:58:57 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:03:29 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 11:03:29 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 11:05:57 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: - | IP: 192.168.31.96
+2025-04-05 11:05:57 📤 [Request] GET /api/tasks/project/7979d451-5ba5-4ca5-914b-924aaaa7805f | Status: - | IP: 192.168.31.96
+2025-04-05 11:05:57 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: - | IP: 192.168.31.96
+2025-04-05 11:05:57 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:05:57 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:05:57 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 404 | Message: Tasks not found
+2025-04-05 11:05:57 📥 [Response] GET /api/tasks/project/7979d451-5ba5-4ca5-914b-924aaaa7805f | Status: 404 | Message: Tasks not found
+2025-04-05 11:05:57 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 404 | Message: Tasks not found
+2025-04-05 11:06:27 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:06:27 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:08:29 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:08:29 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:11:56 📥 [Response] POST /api/timesheet/create | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 11:11:56 📤 [Request] POST /api/timesheet/create | Status: 201 | IP: 127.0.0.1
+2025-04-05 11:25:51 📤 [Request] POST /api/timesheet/create | Status: 400 | IP: 127.0.0.1
+2025-04-05 11:27:54 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:27:54 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:30:45 📥 [Response] POST /api/timesheet/create | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 11:30:45 📤 [Request] POST /api/timesheet/create | Status: 201 | IP: 127.0.0.1
+2025-04-05 11:33:39 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:33:39 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:34:50 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:34:50 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:36:07 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:36:07 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:42:06 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:42:06 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:43:18 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:43:18 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:44:42 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:44:42 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:48:50 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:48:50 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:50:15 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 11:50:15 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 11:51:50 📥 [Response] POST /api/timesheet/create | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 11:51:50 📤 [Request] POST /api/timesheet/create | Status: 201 | IP: 127.0.0.1
+2025-04-05 12:11:36 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 12:11:36 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 12:13:55 📥 [Response] POST /api/timesheet/create | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 12:13:55 📤 [Request] POST /api/timesheet/create | Status: 201 | IP: 127.0.0.1
+2025-04-05 12:15:16 📥 [Response] POST /api/timesheet/create | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 12:15:16 📤 [Request] POST /api/timesheet/create | Status: 500 | IP: 127.0.0.1
+2025-04-05 12:16:34 📥 [Response] POST /api/timesheet/create | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 12:16:34 📤 [Request] POST /api/timesheet/create | Status: 201 | IP: 127.0.0.1
+2025-04-05 12:17:51 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-05 12:17:51 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-05 12:17:51 📥 [Response] GET /api/projects/status/Active | Status: 400 | Message: No message
+2025-04-05 12:17:51 📤 [Request] GET /api/projects/status/Active | Status: 400 | IP: 192.168.31.96
+2025-04-05 12:18:30 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:18:30 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:18:30 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:18:30 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:18:33 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 404 | Message: Tasks not found
+2025-04-05 12:18:33 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 404 | IP: 192.168.31.96
+2025-04-05 12:19:27 📥 [Response] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 12:19:27 📤 [Request] GET /api/tasks/project/4947b226-1414-4e90-b04a-785227743a29 | Status: 200 | IP: 192.168.31.96
+2025-04-05 12:19:49 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:19:49 📤 [Request] POST /api/timesheet/log-time/ | Status: 404 | IP: 192.168.31.96
+2025-04-05 12:21:17 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:21:17 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Missing required fields: task_id, start_time and tenant_id
+2025-04-05 12:21:17 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:22:13 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:22:13 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 12:22:13 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:23:09 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:23:09 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 12:23:09 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:29:52 📤 [Request] POST /api/timesheet/create | Status: 404 | IP: 127.0.0.1
+2025-04-05 12:32:53 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:32:53 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Assignment to constant variable.
+2025-04-05 12:32:53 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:36:37 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:36:37 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Assignment to constant variable.
+2025-04-05 12:36:37 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:38:52 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:38:52 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Assignment to constant variable.
+2025-04-05 12:38:52 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.96
+2025-04-05 12:39:37 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:40:55 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:42:03 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:42:32 📤 [Request] POST /api/timesheet/log-time/ | Status: - | IP: 192.168.31.96
+2025-04-05 12:42:32 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Database error while inserting timesheet
+2025-04-05 12:43:24 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:43:44 📥 [Response] POST /api/timesheet/log-time/ | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 12:43:44 📤 [Request] POST /api/timesheet/log-time/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 12:45:45 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:45:45 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:52:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:52:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:52:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:52:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:52:56 📤 [Request] OPTIONS /api/tasks/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:53:03 📥 [Response] POST /api/tasks/ | Status: 201 | Message: Task created successfully
+2025-04-05 12:53:03 📤 [Request] POST /api/tasks/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 12:53:08 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:53:08 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:53:08 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:53:08 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:53:10 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 12:53:10 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | IP: 192.168.31.96
+2025-04-05 12:53:23 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 12:53:23 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-05 12:53:23 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 12:53:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:53:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:53:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:53:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:53:36 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 12:53:36 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | IP: 192.168.31.96
+2025-04-05 12:58:50 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 12:58:50 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | IP: 192.168.31.96
+2025-04-05 12:58:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:58:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:58:58 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:58:58 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:59:07 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:59:07 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:59:07 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:59:07 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:59:09 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:59:09 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:59:09 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 12:59:09 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 12:59:10 📥 [Response] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 12:59:10 📤 [Request] GET /api/tasks/project/c188adc2-e9c3-4fbf-8994-2434b648565d | Status: 304 | IP: 192.168.31.96
+2025-04-05 13:08:05 📤 [Request] OPTIONS /api/timesheet/0ae8d589-ad05-423b-a957-37ffb02d46ad | Status: 204 | IP: 192.168.31.96
+2025-04-05 13:08:05 📥 [Response] PUT /api/timesheet/0ae8d589-ad05-423b-a957-37ffb02d46ad | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-05 13:08:05 📤 [Request] PUT /api/timesheet/0ae8d589-ad05-423b-a957-37ffb02d46ad | Status: 200 | IP: 192.168.31.96
+2025-04-05 14:32:31 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:32:31 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:32:31 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:32:31 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:33:24 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 14:33:24 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-05 14:33:24 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 14:33:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:33:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 14:33:35 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:33:35 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:33:42 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:33:42 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:33:42 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:33:42 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:33:45 📥 [Response] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 500 | Message: Error fetching tasks by project ID
+2025-04-05 14:33:45 📤 [Request] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 500 | IP: 192.168.31.96
+2025-04-05 14:34:38 📥 [Response] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 14:34:38 📤 [Request] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 200 | IP: 192.168.31.96
+2025-04-05 14:34:53 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 14:34:53 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-05 14:34:53 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 14:36:44 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:36:44 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:36:44 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:36:44 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:36:50 📥 [Response] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-05 14:36:50 📤 [Request] GET /api/tasks/project/a0c428bc-ebc7-4ae8-99cb-072506e069b3 | Status: 200 | IP: 192.168.31.96
+2025-04-05 14:37:21 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 14:37:21 📥 [Response] POST /api/timesheet/log-time/ | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-05 14:37:21 📤 [Request] POST /api/timesheet/log-time/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 14:39:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:39:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:39:34 📥 [Response] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: User retrieved successfully
+2025-04-05 14:39:34 📤 [Request] GET /api/projects/status/Active?tenantId=5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:39:47 📤 [Request] OPTIONS /api/tasks/ | Status: 204 | IP: 192.168.31.96
+2025-04-05 14:39:47 📥 [Response] POST /api/tasks/ | Status: 201 | Message: Task created successfully
+2025-04-05 14:39:47 📤 [Request] POST /api/tasks/ | Status: 201 | IP: 192.168.31.96
+2025-04-05 14:44:56 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:44:56 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 14:44:56 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:44:56 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:45:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:45:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:45:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:45:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:46:31 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:46:31 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:46:31 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:46:31 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:50:27 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:50:27 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:50:27 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:50:27 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:53:07 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:53:07 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:53:07 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:53:07 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:54:36 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:54:36 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:54:36 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:54:36 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:55:05 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:55:05 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:55:05 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:55:05 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:55:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:55:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:55:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:55:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:57:25 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:57:25 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:57:25 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:57:25 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:58:13 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:58:13 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:58:13 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:58:13 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:58:51 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:58:51 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:58:51 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:58:51 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:59:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:59:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:59:26 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:59:26 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:59:49 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:59:49 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 14:59:49 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 14:59:49 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:00:19 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:00:19 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:00:19 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:00:19 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:00:36 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:00:36 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:00:36 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:00:36 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:00:36 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Database error while fetching timesheet by tenant ID
+2025-04-05 15:00:36 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:00:36 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | Message: Database error while fetching timesheet by tenant ID
+2025-04-05 15:00:36 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:02:52 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:02:52 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:02:52 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:02:52 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:02:55 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:02:55 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:02:55 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:02:55 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:03:39 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:03:39 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:03:39 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:03:39 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:03:40 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:03:40 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:03:40 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:03:40 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:06:21 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:06:21 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:06:21 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:06:21 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:06:22 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:06:22 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:06:22 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:06:22 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:09:23 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:09:23 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:09:23 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:09:23 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:10:59 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:10:59 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:10:59 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:10:59 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:12:11 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:12:11 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:12:11 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:12:11 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:12:12 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:12:12 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:12:12 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:12:12 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:14:43 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:14:43 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:14:43 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:14:43 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:14:44 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:14:44 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:14:44 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:14:44 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:15:00 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:15:00 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:15:00 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:15:00 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:15:04 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:15:04 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | IP: 192.168.31.96
+2025-04-05 15:15:04 📥 [Response] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-05 15:15:04 📤 [Request] GET /api/timesheet/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:16:05 📥 [Response] GET /api/projects/tenant/null | Status: 500 | Message: failed to fetch project by Tenant_ID
+2025-04-05 15:16:05 📤 [Request] GET /api/projects/tenant/null | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:16:05 📥 [Response] GET /api/projects/tenant/null | Status: 500 | Message: failed to fetch project by Tenant_ID
+2025-04-05 15:16:05 📤 [Request] GET /api/projects/tenant/null | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:16:08 📥 [Response] GET /api/timesheet/tenant/null | Status: 500 | Message: Database error while fetching timesheet by tenant ID
+2025-04-05 15:16:08 📤 [Request] GET /api/timesheet/tenant/null | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:16:09 📥 [Response] GET /api/timesheet/tenant/null | Status: 500 | Message: Database error while fetching timesheet by tenant ID
+2025-04-05 15:16:09 📤 [Request] GET /api/timesheet/tenant/null | Status: 500 | IP: 192.168.31.96
+2025-04-05 15:20:00 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:20:00 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96
+2025-04-05 15:20:00 📥 [Response] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 200 | Message: Project retrieved successfully
+2025-04-05 15:20:00 📤 [Request] GET /api/projects/tenant/5365492b-8b2c-4401-8e73-6e7c90b85f26 | Status: 304 | IP: 192.168.31.96

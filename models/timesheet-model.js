@@ -2,13 +2,13 @@ import { executeQuery } from "../utils/query-Executer.js";
 
 export const timesheetModel = {
   // CREATE TIMESHEET ENTRY: Start or resume a task
-  startOrResumeTask: async (task_id, tenant_id) => {
+  startOrResumeTask: async (task_id, tenant_id, notes) => {
     const query = `
-      INSERT INTO timesheets (task_id, tenant_id, start_time)
-      VALUES ($1, $2, NOW())
+      INSERT INTO timesheets (task_id, tenant_id, start_time, date, notes)
+      VALUES ($1, $2, NOW(), NOW(), $3)
       RETURNING *;
     `;
-    const values = [task_id, tenant_id];
+    const values = [task_id, tenant_id, notes];
 
     try {
       const result = await executeQuery(query, values);
@@ -21,16 +21,17 @@ export const timesheetModel = {
 
  
   // PAUSE OR STOP TASK: Update timesheet entry (only if end_time is still NULL)
-  pauseOrStopTask: async (task_id) => {
+  pauseOrStopTask: async (task_id, notes) => {
     const query = `
       UPDATE timesheets
       SET end_time = NOW(),
        updated_at = NOW(),
-       duration = NOW() -start_time
+       duration = NOW() -start_time,
+       notes = $2,
       WHERE task_id = $1 AND end_time IS NULL
       RETURNING *;
     `;
-    const values = [task_id];
+    const values = [task_id, notes];
 
     try {
       const result = await executeQuery(query, values);
@@ -42,20 +43,64 @@ export const timesheetModel = {
   },
 
 
-  createLoginTime : async (task_id, start_time, end_time, tenant_id) => {
-    try{
-    const query = `
-      INSERT INTO timesheets (task_id, start_time, end_time, tenant_id,)
-      VALUES ($1, $2, $3, $4)
-      RETURNING *, 
-        EXTRACT(EPOCH FROM (COALESCE($4, NOW()) - $3)) AS duration;
-    `;
-    const values = [task_id, start_time, end_time, tenant_id];
+  /*createLoginTimeSheet: async (task_id, start_time, end_time, tenant_id, date) => {
+    try {
+      const query = `
+        INSERT INTO timesheets (
+          task_id, start_time, end_time, tenant_id, created_at, updated_at, duration, date
+        )
+        VALUES (
+           $1, $2, $3, $4, now(), now(), (COALESCE($3::timestamp, now()) - $2::timestamp),$5::date
+        )
+        RETURNING *, TO_CHAR(date, 'YYYY-MM-DD') AS date_string;
+      `;
+      const values = [task_id, start_time, end_time, tenant_id, date];
       const result = await executeQuery(query, values);
-      return result[0]; // Returning the first inserted row
+      return result[0]; // Return the inserted row
     } catch (error) {
-      console.error("Error inserting login time:", error.message);
-      throw new Error("Database error while inserting login time");
+      console.error("Error inserting timesheet:", error.message);
+      throw new Error("Database error while inserting timesheet");
+    }
+  },*/
+  
+  createLoginTimeSheet: async (task_id, start_time, end_time, tenant_id, date, duration, notes) => {
+    try {
+      let query;
+      let values;
+  
+      if (duration) {
+        // Duration is given directly (as string like '02:30:00')
+        query = `
+          INSERT INTO timesheets (
+            task_id, start_time, end_time, tenant_id, created_at, updated_at, duration, date, notes
+          )
+          VALUES (
+            $1, $2, $3, $4, now(), now(), $5::interval, $6::date, $7
+          )
+          RETURNING *, TO_CHAR(date, 'YYYY-MM-DD') AS date_string;
+        `;
+        values = [task_id, start_time, end_time, tenant_id, duration, date, notes];
+  
+      } else {
+        // Calculate duration from start & end time
+        query = `
+          INSERT INTO timesheets (
+            task_id, start_time, end_time, tenant_id, created_at, updated_at, duration, date, notes
+          )
+          VALUES (
+            $1, $2, $3, $4, now(), now(), (COALESCE($3::timestamp, now()) - $2::timestamp), $5::date, $6
+          )
+          RETURNING *, TO_CHAR(date, 'YYYY-MM-DD') AS date_string;
+        `;
+        values = [task_id, start_time, end_time, tenant_id, date, notes];
+      }
+  
+      const result = await executeQuery(query, values);
+      return result[0];
+  
+    } catch (error) {
+      console.error("Error inserting timesheet:", error.message);
+      throw new Error("Database error while inserting timesheet");
     }
   },
   
@@ -97,7 +142,7 @@ export const timesheetModel = {
     TO_CHAR(
         INTERVAL '1 second' * COALESCE(SUM(EXTRACT(EPOCH FROM (COALESCE(ts.end_time, NOW()) - ts.start_time))), 0), 
         'HH24:MI'
-    ) AS total_time_spent,
+    ) AS total_time_spent, 
     CASE 
         WHEN COUNT(CASE WHEN ts.end_time IS NULL THEN 1 END) > 0 
         THEN 'Running' 
@@ -113,7 +158,7 @@ GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
     try {
       const result = await executeQuery(query, values);
       // Depending on your requirements, you can return all rows or just the first record.
-      return result.rows; // Returns all aggregated rows
+      return result; // Returns all aggregated rows
     } catch (error) {
       console.error("Error fetching timesheet by tenant ID:", error.message);
       throw new Error("Database error while fetching timesheet by tenant ID");
@@ -133,7 +178,7 @@ GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
     Object.entries(updates).forEach(([key, value]) => {
       fields.push(`${key} = $${index}`);
       values.push(value);
-      index++;
+      index++; 
     });
 
     // If updating start_time or end_time, recalculate duration if both provided

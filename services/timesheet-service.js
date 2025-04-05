@@ -2,13 +2,13 @@ import { timesheetModel } from "../models/timesheet-model.js";
 
 export const timesheetService = {
   // CREATE TIMESHEET ENTRY: Start or resume a task
-  startOrResumeTask: async ( task_id, tenant_id ) => {
+  startOrResumeTask: async ( task_id, tenant_id, notes ) => {
     try {
-      if (!task_id || !tenant_id) {
-        throw new Error("Missing required fields: task_id and tenant_id");
+      if (!task_id || !tenant_id ) {
+        throw new Error("Missing required fields: task_id,  and tenant_id");
       }
       // Business logic can be added here if needed
-      return await timesheetModel.startOrResumeTask(task_id, tenant_id);
+      return await timesheetModel.startOrResumeTask(task_id, tenant_id, notes);
     } catch (error) {
       console.error("Error creating timesheet entry:", error.message);
       throw new Error(error.message || "Error creating timesheet entry");
@@ -17,26 +17,26 @@ export const timesheetService = {
 
 
   // PAUSE OR STOP TASK: Update the timesheet entry (set end_time)
-  pauseOrStopTask: async ( task_id ) => {
+  pauseOrStopTask: async ( task_id,  notes ) => {
     try {
-      if (!task_id) {
+      if (!task_id ) {
         throw new Error("Missing required field: task_id");
       }
-      return await timesheetModel.pauseOrStopTask(task_id);
+      return await timesheetModel.pauseOrStopTask(task_id, notes);
     } catch (error) {
       console.error("Error pausing/stopping timesheet entry:", error.message);
       throw new Error(error.message || "Error pausing/stopping timesheet entry");
     }
   },
 
-  createLoginTime: async ( task_id, start_time, end_time, tenant_id ) => {
+  createLoginTimeSheet: async ( task_id, start_time, end_time, tenant_id, date, duration, notes ) => {
     try {
-      if (!task_id || !tenant_id) {
+      if (!task_id  || !tenant_id ) {
         throw new Error("Missing required fields: task_id and tenant_id");
       }
       // Business logic can be added here if needed
-      const loginTimeResult = await timesheetModel.createLoginTime(task_id, start_time, end_time, tenant_id);
-      return loginTimeResult;
+      const result = await timesheetModel.createLoginTimeSheet(task_id, start_time, end_time, tenant_id, date, duration, notes);
+      return result;
     } catch (error) {
       console.error("Error creating Login_time entry:", error.message);
       throw new Error(error.message || "Error creating Login_time entry");
