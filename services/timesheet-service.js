@@ -72,8 +72,6 @@ export const timesheetService = {
     try {
       if (!tenant_id) throw new Error("Invalid tenant ID");
       const timesheets = await timesheetModel.getTimesheetByTenantId(tenant_id);
-      if (!timesheets || timesheets.length === 0)
-        throw new Error("No timesheet entries found for tenant");
       return timesheets;
     } catch (error) {
       console.error("Error fetching timesheet by tenant ID:", error.message);

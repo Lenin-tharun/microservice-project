@@ -48,10 +48,7 @@ export const projectModel = {
   // ✅ Get Projects by Tenant ID
   getProjectsByTenantId: async (tenant_id) => {
     try {
-      if (!isUuid(tenant_id)) {
-        throw new Error("Invalid UUID format for tenant_id");
-      }
-
+    
       const query = `SELECT * FROM projects WHERE tenant_id = $1;`;
       return await executeQuery(query, [tenant_id]);
     } catch (error) {

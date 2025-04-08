@@ -1,22 +1,17 @@
-/*import jwt from "jsonwebtoken";
-import dotenv from "dotenv";
+import tokens from "../utils/tokens";
 
-dotenv.config();
+const extractUserInfo = (req, res, next) => {
+  const userInfoToken = req.cookies.userInfo;
 
-const authMiddleware = (req, res, next) => {
-    const token = req.header("Authorization")?.split(" ")[1];
+  if (!userInfoToken) return res.status(401).json({ message: "No user info" });
 
-    if (!token) {
-        return res.status(401).json({ success: false, message: "Access Denied. No token provided." });
-    }
-
-    try {
-        const verified = jwt.verify(token, process.env.JWT_SECRET);
-        req.user = verified;
-        next();
-    } catch (err) {
-        res.status(403).json({ success: false, message: "Invalid token." });
-    }
+  try {
+    const decoded = tokens.verifyUserInfo(userInfoToken); // your JWT verify
+    req.user = decoded;
+    next();
+  } catch (err) {
+    return res.status(403).json({ message: "Invalid user info token" });
+  }
 };
 
-export default authMiddleware;*/
+export default extractUserInfo;

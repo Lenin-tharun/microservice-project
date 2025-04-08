@@ -13,8 +13,8 @@ export const timesheetController = {
       }
       const timesheet = await timesheetService.startOrResumeTask(
         task_id,
-        tenant_id, 
-        notes,
+        tenant_id,
+        notes
       );
       return res.status(201).json({
         success: true,
@@ -33,7 +33,8 @@ export const timesheetController = {
   // Pause or stop a task (update the timesheet entry by setting end_time)
   pauseOrStopTask: async (req, res) => {
     try {
-      const { id, notes } = req.params;
+      const { id } = req.params;
+      const { notes } = req.query;
       if (!id) {
         return res.status(400).json({
           success: false,
@@ -72,17 +73,15 @@ export const timesheetController = {
         start_time,
         end_time,
         tenant_id,
-        date, 
+        date,
         duration,
-        notes, 
+        notes
       );
-      res
-        .status(201)
-        .json({
-          success: true,
-          data: loginTime,
-          message: "loginTimeSheet created successfully",
-        });
+      res.status(201).json({
+        success: true,
+        data: loginTime,
+        message: "loginTimeSheet created successfully",
+      });
     } catch (error) {
       console.error("[ERROR] createLoginTimeSheet:", error);
       res.status(500).json({ success: false, message: error.message });
@@ -151,7 +150,7 @@ export const timesheetController = {
       const timesheets = await timesheetService.getTimesheetByTenantId(
         tenant_id
       );
-      if (!timesheets || timesheets.length === 0) {
+      if (timesheets.length === 0) {
         return res.status(404).json({
           success: false,
           message: "No timesheet entries found for this tenant",

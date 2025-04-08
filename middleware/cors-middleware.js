@@ -4,6 +4,7 @@ const allowedOrigins = [
     'http://localhost:3100',
     'https://simworkspace.banyanpro.com',
     'http://192.168.31.96:8000',
+    'http://192.168.31.102:8000'
   ];
   
   const corsMiddleware = (req, res, next) => {

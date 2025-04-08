@@ -81,6 +81,14 @@ export const projectService = {
   // ✅ GET PROJECT BY TENANT_ID
   getProjectsByTenantId: async (tenant_id) => {
     try {
+      // Check for null,
+      if (tenant_id === null || tenant_id === undefined) {
+        throw new Error("tenant_id cannot be null or undefined");
+      }
+      // Check if it is a valid UUID
+      if (!isUuid(tenant_id)) {
+        throw new Error("Invalid UUID format for tenant_id");
+      }
       const projects = await projectModel.getProjectsByTenantId(tenant_id);
       return projects;
     } catch (error) {
