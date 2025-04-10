@@ -1,29 +1,29 @@
-import { projectuserService }  from "../services/project-users-service.js";
+import { projectEmployeeService }  from "../services/project-employee-service.js";
 
-export const projectUserController = {
+export const projectEmployeeController = {
   // Assign a user to a project
-  saveProjectUsers: async (req, res) => {
+  saveProjectEmployee: async (req, res) => {
     try {
-      const { project_id, user_uuid, tenant_id } = req.body;
+      const { project_id, employee_id, tenant_id } = req.body;
 
       // Validate required fields
-      if (!project_id || !user_uuid || !tenant_id) {
+      if (!project_id || !employee_id || !tenant_id) {
         return res.status(400).json({ 
           success: false, 
-          message: "Missing required fields: project_id, user_uuid, tenant_id" 
+          message: "Missing required fields: project_id, employee_id, tenant_id" 
         });
       }
 
       // Call the service to save the project-user association
-      const result = await projectuserService.saveProjectUsers(project_id, user_uuid, tenant_id);
+      const result = await projectEmployeeService.saveProjectEmployee(project_id, employee_id, tenant_id);
 
       return res.status(201).json({
         success: true,
-        message: "User assigned to project successfully",
+        message: "Employee assigned to project successfully",
         data: result,
       });
     } catch (error) {
-      console.error(`[ERROR] saveProjectUsers: ${error.message}`);
+      console.error(`[ERROR] saveProjectEmployee: ${error.message}`);
       return res.status(500).json({
         success: false,
         message: error.message || "Internal Server Error",
@@ -32,7 +32,7 @@ export const projectUserController = {
   },
 
   // Retrieve users associated with a specific project
-  getProjectUsers: async (req, res) => {
+  getProjectEmployees: async (req, res) => {
     try {
       const { project_id } = req.params;
 
@@ -45,15 +45,15 @@ export const projectUserController = {
       }
 
       // Call the service to get project users
-      const users = await projectuserService.getProjectUsers(project_id);
+      const employee = await projectEmployeeService.getProjectEmployees(project_id);
 
       return res.status(200).json({
         success: true,
-        message: "Project users retrieved successfully",
-        data: users,
+        message: "Project Employees retrieved successfully",
+        data: employee,
       });
     } catch (error) {
-      console.error(`[ERROR] getProjectUsers: ${error.message}`);
+      console.error(`[ERROR] getProjectEmployees: ${error.message}`);
       return res.status(500).json({
         success: false,
         message: error.message || "Internal Server Error",

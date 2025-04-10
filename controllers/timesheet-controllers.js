@@ -4,7 +4,7 @@ export const timesheetController = {
   // Create a timesheet entry (start or resume a task)
   startOrResumeTask: async (req, res) => {
     try {
-      const { task_id, tenant_id, notes } = req.body;
+      const { task_id, tenant_id, notes,employees } = req.body;
       if (!task_id || !tenant_id) {
         return res.status(400).json({
           success: false,
@@ -14,7 +14,8 @@ export const timesheetController = {
       const timesheet = await timesheetService.startOrResumeTask(
         task_id,
         tenant_id,
-        notes
+        notes,
+        employees
       );
       return res.status(201).json({
         success: true,

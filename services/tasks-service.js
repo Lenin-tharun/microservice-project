@@ -3,7 +3,6 @@ import { taskModel } from "../models/task-model.js";
 export const taskService = {
   createTask: async (taskData) => {
     try {
-      console.log(taskData);
       const { task_name, description, due_date, project_id, tenant_id, created_by } = taskData;
 
       // Validate required fields

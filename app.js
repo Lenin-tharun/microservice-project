@@ -48,8 +48,8 @@ import timesheetRoutes from "./routes/timesheet-routes.js";
 //import authMiddleware from "./middleware/auth-middleware.js";
 import { requestLogger,responseLogger } from "./middleware/logger-middleware.js";
 import  corsMiddleware  from "./middleware/cors-middleware.js";
-import projectUsersRoutes from "./routes/project-users-routes.js";
-import timesheetUsersRoutes from "./routes/timesheet_users_routes.js"
+import projectemployeeRoute from "./routes/project-employee-routes.js";
+import employeeTimesheetsRoutes from "./routes/employee_timesheets_routes.js"
 
 
 
@@ -57,7 +57,7 @@ dotenv.config();
 
 const app = express();
 // ✅ Attach logging middleware 
-app.use(requestLogger);
+app.use(requestLogger); 
 app.use(responseLogger);
 
 app.use(corsMiddleware);
@@ -74,8 +74,8 @@ app.use("/api/projects", projectRoutes);
 app.use("/api/forms", projectFormRoutes);
 app.use("/api/tasks", taskRoutes);
 app.use("/api/timesheet", timesheetRoutes);
-app.use("/api/projectUsers", projectUsersRoutes);
-app.use("/api/timesheetUsers", timesheetUsersRoutes);
+app.use("/api/projectEmployee", projectemployeeRoute);
+app.use("/api/employeeTimesheets", employeeTimesheetsRoutes);
 
 // Error Handling Middleware (should be last)
 //app.use(errorHandler);

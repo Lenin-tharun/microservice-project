@@ -1,5 +1,5 @@
 import { projectModel } from "../models/project-model.js";
-import { projectuserService } from "./project-users-service.js";
+import { projectEmployeeService } from "./project-employee-service.js";
 import { taskService } from "./tasks-service.js";
 import { validate as isUuid } from "uuid";
 
@@ -7,7 +7,7 @@ export const projectService = {
   // ✅ CREATE PROJECT
   createProject: async (data) => {
     try {
-      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedUsers, tasks, created_by } = data;
+      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedEmployees, tasks, created_by } = data;
       if (!isUuid(customer_id)) {
         throw new Error("Invalid UUID format for project ID");
       }
@@ -24,11 +24,11 @@ export const projectService = {
       );
 
       // Save Project Users
-      const saveProjectUsers = await Promise.all(
-        assignedUsers.map(async (user) => {
-          return projectuserService.saveProjectUsers(
+      const saveProjectEmployee = await Promise.all(
+        assignedEmployees.map(async (emp) => {
+          return projectEmployeeService.saveProjectEmployee(
             projectResult.id,
-            user.userId,
+            emp,
             tenant_id
           );
         })

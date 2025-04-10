@@ -1,0 +1,749 @@
+2025-04-09 18:57:04 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 18:57:04 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 18:57:05 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 18:57:05 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 18:57:39 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 18:57:39 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 18:57:39 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 18:57:39 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:03:17 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:03:17 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:03:17 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:03:17 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:04:37 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:04:37 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:04:37 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:04:37 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:05:40 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:05:40 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:05:40 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:05:40 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:08:44 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:08:44 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:08:44 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:08:44 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:24:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:24:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-09 19:24:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:24:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:25:52 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 19:25:52 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:25:52 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 19:25:52 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:25:54 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:25:54 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:25:54 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:25:54 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:29:40 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 19:29:40 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:29:40 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 19:29:40 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:29:41 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:29:41 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:29:41 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:29:41 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:33:23 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:33:23 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:33:23 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:33:23 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:36:47 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:36:47 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:36:47 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:36:47 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:40:59 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:40:59 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:40:59 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:40:59 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:46:35 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:46:35 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 19:46:35 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 19:46:35 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 20:05:51 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 20:05:51 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-09 20:05:51 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-09 20:05:51 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 20:13:31 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-09 20:13:32 📥 [Response] POST /api/projects/ | Status: 500 | Message: Cannot read properties of undefined (reading 'map')
+2025-04-09 20:13:32 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.102
+2025-04-09 20:18:56 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 20:18:56 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 20:18:56 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-09 20:18:56 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 20:18:57 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-09 20:18:57 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-09 20:18:57 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-09 20:18:57 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-09 20:19:17 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-09 20:19:17 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | IP: 192.168.31.102
+2025-04-10 11:36:50 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:36:50 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 11:36:50 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:36:50 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:38:09 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:38:09 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:38:10 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:38:10 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:39:10 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:39:10 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:39:10 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:39:10 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:40:15 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 11:40:15 📥 [Response] POST /api/projects/ | Status: 500 | Message: Database error while saving project Employee
+2025-04-10 11:40:15 📤 [Request] POST /api/projects/ | Status: 500 | IP: 192.168.31.102
+2025-04-10 11:41:50 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 11:41:51 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-10 11:41:51 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 11:41:51 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:41:51 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 11:41:51 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:41:51 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:43:04 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:43:04 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 11:43:04 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:43:05 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:43:08 📥 [Response] GET /api/tasks/project/24206c08-613f-4e4c-b681-1e67a8d83875 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:43:08 📤 [Request] GET /api/tasks/project/24206c08-613f-4e4c-b681-1e67a8d83875 | Status: 200 | IP: 192.168.31.102
+2025-04-10 11:43:09 📤 [Request] GET /api/projects/project-Employees/24206c08-613f-4e4c-b681-1e67a8d83875 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:43:25 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:43:25 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:43:25 📤 [Request] GET /api/projects/project-Employees/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:45:23 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:45:23 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:45:23 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:45:23 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:45:28 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 11:45:28 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:46:09 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:46:09 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:46:09 📤 [Request] GET /api/projects/project-Employees/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:46:24 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:46:24 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:46:24 📤 [Request] GET /api/projects/project-Employees/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:48:35 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:48:35 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:48:35 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:48:35 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:48:36 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:48:36 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:48:36 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:48:36 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:48:38 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 11:48:38 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:52:43 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:52:43 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:52:43 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:52:43 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:52:48 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:52:48 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:52:48 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:52:48 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:52:56 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:52:56 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:54:18 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:54:18 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:54:18 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:54:18 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:54:25 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:54:25 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:55:27 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 11:55:27 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:56:37 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:56:37 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:57:10 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 11:57:10 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:57:21 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:57:21 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:57:21 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 11:57:21 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:57:24 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:57:24 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:57:24 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 11:57:24 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 11:57:29 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 11:57:29 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 11:58:11 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 11:58:11 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:02:52 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 12:02:52 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 12:03:35 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:03:35 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:03:35 📥 [Response] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 500 | Message: users is not defined
+2025-04-10 12:03:35 📤 [Request] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 500 | IP: 192.168.31.102
+2025-04-10 12:06:07 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 12:06:07 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:06:07 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 12:06:07 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:06:08 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:06:08 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:06:08 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:06:08 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:15:17 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:15:17 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:15:17 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:15:17 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:15:20 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:15:20 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:15:20 📥 [Response] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 500 | Message: users is not defined
+2025-04-10 12:15:20 📤 [Request] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 500 | IP: 192.168.31.102
+2025-04-10 12:17:10 📥 [Response] GET /api/tasks/project/ac928b9e-ed28-40d2-9a86-5f582d3c9fdc | Status: 404 | Message: Tasks not found
+2025-04-10 12:17:10 📤 [Request] GET /api/tasks/project/ac928b9e-ed28-40d2-9a86-5f582d3c9fdc | Status: 404 | IP: 192.168.31.102
+2025-04-10 12:17:15 📥 [Response] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | Message: Tasks not found
+2025-04-10 12:17:15 📤 [Request] GET /api/tasks/project/6ccdde70-aed5-479c-99d9-781a01e71bf5 | Status: 404 | IP: 192.168.31.102
+2025-04-10 12:17:21 📥 [Response] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:17:21 📤 [Request] GET /api/tasks/project/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:17:21 📥 [Response] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:17:21 📤 [Request] GET /api/projectEmployee/e13c32bc-d53f-4891-b066-3f8289c71478 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:19:04 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 12:19:04 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 404 | IP: 192.168.31.102
+2025-04-10 12:19:04 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 12:19:04 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 404 | IP: 192.168.31.102
+2025-04-10 12:19:48 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:19:49 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-10 12:19:49 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 12:19:49 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:19:49 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:19:49 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:19:49 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:19:53 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:19:53 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:19:53 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:19:53 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:19:55 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:19:55 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:19:55 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:19:55 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:20:27 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:20:27 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:20:27 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:20:27 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:20:28 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:20:28 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:20:28 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:20:28 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:21:28 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:21:28 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:21:28 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:21:28 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:23:03 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:23:03 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:23:03 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:23:03 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:23:36 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:23:36 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:23:55 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:23:55 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:23:55 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:23:55 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:26:49 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:26:49 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:26:49 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:26:49 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:27:40 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:27:40 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:27:40 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:27:40 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:31:16 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:31:16 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:31:16 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:31:16 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:31:18 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:31:18 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:31:18 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:31:18 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:33:01 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:33:01 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 12:33:01 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 12:37:06 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:37:06 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:37:07 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:37:07 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:37:08 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:37:08 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:37:08 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:37:08 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:37:13 📤 [Request] OPTIONS /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:37:13 📥 [Response] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 12:37:13 📤 [Request] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:37:27 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:37:27 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 12:37:27 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 12:44:27 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:44:27 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:44:27 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:44:27 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:44:29 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:44:29 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:44:29 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:44:29 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:44:32 📤 [Request] OPTIONS /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:44:32 📥 [Response] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 12:44:32 📤 [Request] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:44:40 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:44:40 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Cannot read properties of undefined (reading 'map')
+2025-04-10 12:44:40 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.102
+2025-04-10 12:45:54 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:45:55 📥 [Response] POST /api/timesheet/ | Status: 500 | Message: Database error while saving Employee Timesheets
+2025-04-10 12:45:55 📤 [Request] POST /api/timesheet/ | Status: 500 | IP: 192.168.31.102
+2025-04-10 12:46:44 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:46:44 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 12:46:44 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 12:50:04 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:50:04 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:50:04 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:50:04 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:50:05 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:50:05 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:50:05 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 12:50:05 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:50:18 📤 [Request] OPTIONS /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 204 | IP: 192.168.31.102
+2025-04-10 12:50:19 📥 [Response] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 12:50:19 📤 [Request] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc?notes=Task+Started | Status: 200 | IP: 192.168.31.102
+2025-04-10 12:52:26 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:52:26 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:53:18 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:53:18 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:54:09 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:54:09 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:54:43 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:54:43 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:55:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 12:55:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:55:08 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:55:08 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:55:08 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:55:08 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:57:14 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 12:57:14 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 12:58:51 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 12:58:51 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:00:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:00:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:00:36 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:00:36 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:00:36 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:00:36 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:00:38 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:00:38 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:00:38 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:00:38 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:02:34 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:02:34 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:02:35 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:02:35 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:02:35 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:02:35 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:02:36 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:02:36 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:02:36 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:02:36 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:03:15 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:03:15 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:03:47 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:03:47 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:03:47 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:03:47 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:03:48 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:03:48 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:03:48 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:03:48 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:12 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:05:12 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:15 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:05:15 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:15 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:05:15 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:19 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:05:19 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:19 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:05:19 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:05:46 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:05:46 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:06:28 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:06:28 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:06:28 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:06:28 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:06:29 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:06:29 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:06:29 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:06:29 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:07:26 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:07:26 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:07:26 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:07:26 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:07:28 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:07:28 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:07:28 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:07:28 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:09:52 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:09:52 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:09:53 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:09:53 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:09:54 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:09:54 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:09:54 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:09:54 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:48:50 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:48:50 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:48:51 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:48:51 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:12 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:49:12 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:12 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:49:12 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:16 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:49:16 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:16 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:49:16 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:18 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:49:18 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:49:18 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:49:18 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:51:02 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:51:02 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:51:02 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:51:02 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:25 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:53:25 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:25 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:53:25 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:28 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:53:28 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:28 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:53:28 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:31 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 13:53:31 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 13:53:31 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 13:53:33 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:53:33 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:33 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:53:33 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:53:34 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:53:34 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:53:34 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:53:34 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:55:36 📤 [Request] OPTIONS /api/timesheet/undefined | Status: 204 | IP: 192.168.31.102
+2025-04-10 13:55:36 📥 [Response] PUT /api/timesheet/undefined | Status: 500 | Message: Database error while updating timesheet entry
+2025-04-10 13:55:36 📤 [Request] PUT /api/timesheet/undefined | Status: 500 | IP: 192.168.31.102
+2025-04-10 13:56:10 📤 [Request] OPTIONS /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc | Status: 204 | IP: 192.168.31.102
+2025-04-10 13:56:10 📥 [Response] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 13:56:10 📤 [Request] PUT /api/timesheet/445ca085-8aab-4206-b59a-4db712ea04cc | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:56:49 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 13:56:49 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:56:49 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 13:56:49 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:56:51 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:56:51 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:56:51 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:56:51 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:56:56 📤 [Request] OPTIONS /api/tasks/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 13:56:56 📥 [Response] POST /api/tasks/ | Status: 201 | Message: Task created successfully
+2025-04-10 13:56:56 📤 [Request] POST /api/tasks/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 13:57:01 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:57:01 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:01 📥 [Response] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: User retrieved successfully
+2025-04-10 13:57:01 📤 [Request] GET /api/projects/status/Active?tenantId=84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:03 📥 [Response] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 13:57:03 📤 [Request] GET /api/tasks/project/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:57:03 📥 [Response] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 13:57:03 📤 [Request] GET /api/projectEmployee/0cadff54-6d33-4506-97a1-e56981666737 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:57:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:07 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:57:07 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:08 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 13:57:08 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | IP: 192.168.31.102
+2025-04-10 13:57:08 📥 [Response] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 13:57:08 📤 [Request] GET /api/timesheet/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:37 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:57:37 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 13:57:37 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 13:57:37 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:10:00 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:10:00 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:10:00 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:10:00 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:18:05 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:18:05 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:18:05 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:18:05 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:19:18 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:19:18 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:19:18 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:19:18 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:20:55 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:20:55 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:20:55 📥 [Response] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:20:55 📤 [Request] GET /api/projects/tenant/84a39df1-f0fe-4769-a3f9-6869171a6874 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:34:50 📥 [Response] GET /api/projects/tenant/5a801734-4f28-41c6-8fc4-394552fcec33 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:34:50 📤 [Request] GET /api/projects/tenant/5a801734-4f28-41c6-8fc4-394552fcec33 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:34:50 📥 [Response] GET /api/projects/tenant/5a801734-4f28-41c6-8fc4-394552fcec33 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:34:50 📤 [Request] GET /api/projects/tenant/5a801734-4f28-41c6-8fc4-394552fcec33 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:38:24 📥 [Response] GET /api/projects/tenant/4f58c495-33f6-4be6-8aa7-60c77d0a8b26 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:38:24 📤 [Request] GET /api/projects/tenant/4f58c495-33f6-4be6-8aa7-60c77d0a8b26 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:38:24 📥 [Response] GET /api/projects/tenant/4f58c495-33f6-4be6-8aa7-60c77d0a8b26 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:38:24 📤 [Request] GET /api/projects/tenant/4f58c495-33f6-4be6-8aa7-60c77d0a8b26 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:39:01 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:39:01 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:39:01 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:39:01 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:42:38 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:42:38 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:42:38 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | Message: Project not found for this tenant
+2025-04-10 14:42:38 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 404 | IP: 192.168.31.102
+2025-04-10 14:47:12 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:47:12 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-10 14:47:12 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 14:47:13 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:47:13 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:47:13 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:47:13 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:47:24 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:47:24 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:47:24 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:47:24 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:47:27 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 14:47:27 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:47:27 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 14:47:27 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:47:47 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:47:47 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 14:47:47 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 14:47:51 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:47:51 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:47:51 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:47:51 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:47:52 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 14:47:52 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:47:52 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 14:47:52 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:47:59 📤 [Request] OPTIONS /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2 | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:47:59 📥 [Response] PUT /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2 | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 14:47:59 📤 [Request] PUT /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2 | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:48:00 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:48:00 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:48:00 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:48:00 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:48:04 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 14:48:04 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:48:04 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 14:48:04 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:48:22 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:48:22 📥 [Response] POST /api/timesheet/log-time/ | Status: 500 | Message: Database error while inserting timesheet
+2025-04-10 14:48:22 📤 [Request] POST /api/timesheet/log-time/ | Status: 500 | IP: 192.168.31.102
+2025-04-10 14:51:27 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:51:27 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:51:27 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:51:27 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:51:28 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 14:51:28 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:51:28 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 14:51:28 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:51:57 📤 [Request] OPTIONS /api/timesheet/log-time/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:51:57 📥 [Response] POST /api/timesheet/log-time/ | Status: 201 | Message: loginTimeSheet created successfully
+2025-04-10 14:51:57 📤 [Request] POST /api/timesheet/log-time/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 14:52:04 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 14:52:04 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 14:52:04 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 14:52:04 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:52:11 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:52:11 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:52:11 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 14:52:11 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:52:13 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 14:52:13 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:52:13 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 14:52:13 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:52:18 📤 [Request] OPTIONS /api/timesheet/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 14:52:18 📥 [Response] POST /api/timesheet/ | Status: 201 | Message: Timesheet entry created successfully
+2025-04-10 14:52:18 📤 [Request] POST /api/timesheet/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 14:54:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:54:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 14:54:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 14:54:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:13 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:13 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:13 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:13 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:18 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:14:18 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 15:14:18 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:14:18 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:22 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 15:14:22 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:22 📥 [Response] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: User retrieved successfully
+2025-04-10 15:14:22 📤 [Request] GET /api/projects/status/Active?tenantId=4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:23 📥 [Response] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Tasks retrieved successfully
+2025-04-10 15:14:23 📤 [Request] GET /api/tasks/project/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 15:14:23 📥 [Response] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project Employees retrieved successfully
+2025-04-10 15:14:23 📤 [Request] GET /api/projectEmployee/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:26 📤 [Request] OPTIONS /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2?notes= | Status: 204 | IP: 192.168.31.102
+2025-04-10 15:14:26 📥 [Response] PUT /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2?notes= | Status: 200 | Message: Timesheet entry updated successfully
+2025-04-10 15:14:26 📤 [Request] PUT /api/timesheet/b1f0fe25-1b1a-4b6a-a3bb-07e7e5f4b4c2?notes= | Status: 200 | IP: 192.168.31.102
+2025-04-10 15:14:40 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:40 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:40 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:40 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:45 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:14:45 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 15:14:45 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:14:45 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:54 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:54 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:14:54 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:14:54 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:15:05 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:15:05 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:15:05 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:15:05 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:24:28 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:24:28 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:24:28 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:24:28 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:24:41 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:24:41 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:24:41 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:24:41 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:24:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:24:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:24:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:24:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:25:20 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:25:20 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:25:30 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:25:30 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:25:30 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:25:30 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:25:33 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:25:33 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:25:33 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:25:33 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:26:38 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:26:38 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:26:38 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:26:38 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:27:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:27:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:27:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:27:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:27:45 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:27:45 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:27:45 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:27:45 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:34:27 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:34:27 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:34:27 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:34:27 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:34:29 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:34:29 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:34:29 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | Message: failed to fetch project by ID
+2025-04-10 15:34:29 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 500 | IP: 192.168.31.102
+2025-04-10 15:35:19 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:35:19 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:35:19 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:35:19 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:35:21 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:35:21 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | IP: 192.168.31.102
+2025-04-10 15:35:21 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:35:21 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:43 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:38:43 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:43 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:38:43 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:44 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:38:44 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:44 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:38:44 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:38:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:38:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:38:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:39:34 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:39:34 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:39:34 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:39:34 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:39:36 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:39:36 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:39:36 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:39:36 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:45 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:44:45 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:45 📥 [Response] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Timesheet entries retrieved successfully
+2025-04-10 15:44:45 📤 [Request] GET /api/timesheet/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:45 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:44:45 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:45 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:44:45 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:48 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:44:48 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:44:48 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:44:48 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:45:30 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:45:30 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:45:30 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:45:30 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:45:32 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:45:32 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:45:32 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:45:32 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:47:53 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:47:53 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:47:53 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:47:53 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:47:55 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:47:55 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:47:55 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:47:55 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:54:36 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:54:36 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:54:36 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:54:36 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:54:38 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:54:38 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:54:38 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:54:38 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:57:16 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:57:16 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:57:16 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:57:16 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:57:18 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:57:18 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:57:18 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:57:18 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:59:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:59:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:59:43 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:59:43 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:59:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:59:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 15:59:46 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 15:59:46 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:01:23 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:01:23 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:01:23 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:01:23 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:01:25 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:01:25 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:01:25 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:01:25 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:25:25 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:25:25 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:25:25 📥 [Response] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:25:25 📤 [Request] GET /api/projects/8b0c1bd8-6068-4505-9148-d2221d5627ac | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:27:10 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:27:10 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:27:10 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:27:10 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:28:42 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 16:28:42 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-10 16:28:42 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 16:28:42 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:28:42 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 16:28:42 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:28:42 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102
+2025-04-10 16:29:40 📤 [Request] OPTIONS /api/projects/ | Status: 204 | IP: 192.168.31.102
+2025-04-10 16:29:40 📥 [Response] POST /api/projects/ | Status: 201 | Message: Project created successfully
+2025-04-10 16:29:40 📤 [Request] POST /api/projects/ | Status: 201 | IP: 192.168.31.102
+2025-04-10 16:29:41 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:29:41 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | IP: 192.168.31.102
+2025-04-10 16:29:41 📥 [Response] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 200 | Message: Project retrieved successfully
+2025-04-10 16:29:41 📤 [Request] GET /api/projects/tenant/4f176687-c3fb-44d4-9ae3-864a0dec0cb0 | Status: 304 | IP: 192.168.31.102

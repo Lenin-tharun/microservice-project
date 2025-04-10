@@ -1,48 +1,83 @@
 import { timesheetModel } from "../models/timesheet-model.js";
+import { employeeTimesheetsService } from "./employee_timesheets_services.js";
 
 export const timesheetService = {
   // CREATE TIMESHEET ENTRY: Start or resume a task
-  startOrResumeTask: async ( task_id, tenant_id, notes ) => {
+  startOrResumeTask: async (task_id, tenant_id, notes, employees) => {
     try {
-      if (!task_id || !tenant_id ) {
+      if (!task_id || !tenant_id) {
         throw new Error("Missing required fields: task_id,  and tenant_id");
       }
       // Business logic can be added here if needed
-      return await timesheetModel.startOrResumeTask(task_id, tenant_id, notes);
+      const timesheet = await timesheetModel.startOrResumeTask(
+        task_id,
+        tenant_id,
+        notes
+      );
+
+      // Save Employee Timehseet
+      console.log(employees)
+      const saveEmployeeTimesheet = await Promise.all(
+        employees.map(async (emp) => {
+          return employeeTimesheetsService.saveEmployeeTimesheets(
+            timesheet.id,
+            emp,
+            tenant_id
+          );
+        })
+      );
+
+      return timesheet
     } catch (error) {
       console.error("Error creating timesheet entry:", error.message);
       throw new Error(error.message || "Error creating timesheet entry");
     }
   },
 
-
   // PAUSE OR STOP TASK: Update the timesheet entry (set end_time)
-  pauseOrStopTask: async ( task_id,  notes ) => {
+  pauseOrStopTask: async (task_id, notes) => {
     try {
-      if (!task_id ) {
+      if (!task_id) {
         throw new Error("Missing required field: task_id");
       }
       return await timesheetModel.pauseOrStopTask(task_id, notes);
     } catch (error) {
       console.error("Error pausing/stopping timesheet entry:", error.message);
-      throw new Error(error.message || "Error pausing/stopping timesheet entry");
+      throw new Error(
+        error.message || "Error pausing/stopping timesheet entry"
+      );
     }
   },
 
-  createLoginTimeSheet: async ( task_id, start_time, end_time, tenant_id, date, duration, notes ) => {
+  createLoginTimeSheet: async (
+    task_id,
+    start_time,
+    end_time,
+    tenant_id,
+    date,
+    duration,
+    notes
+  ) => {
     try {
-      if (!task_id  || !tenant_id ) {
+      if (!task_id || !tenant_id) {
         throw new Error("Missing required fields: task_id and tenant_id");
       }
       // Business logic can be added here if needed
-      const result = await timesheetModel.createLoginTimeSheet(task_id, start_time, end_time, tenant_id, date, duration, notes);
+      const result = await timesheetModel.createLoginTimeSheet(
+        task_id,
+        start_time,
+        end_time,
+        tenant_id,
+        date,
+        duration,
+        notes
+      );
       return result;
     } catch (error) {
       console.error("Error creating Login_time entry:", error.message);
       throw new Error(error.message || "Error creating Login_time entry");
     }
   },
-
 
   // GET ALL TIMESHEET ENTRIES (No pagination)
   getAllTimesheets: async () => {
@@ -96,7 +131,10 @@ export const timesheetService = {
         updateData.duration = Math.floor((endTime - startTime) / (1000 * 60));
       }
 
-      const updatedTimesheet = await timesheetModel.updateTimesheet(id, updateData);
+      const updatedTimesheet = await timesheetModel.updateTimesheet(
+        id,
+        updateData
+      );
       if (!updatedTimesheet)
         throw new Error("Timesheet entry not found or update failed");
       return updatedTimesheet;
@@ -111,8 +149,7 @@ export const timesheetService = {
     try {
       if (!id) throw new Error("Invalid timesheet ID");
       const deletedTimesheet = await timesheetModel.deleteTimesheet(id);
-      if (!deletedTimesheet)
-        throw new Error("Timesheet entry not found");
+      if (!deletedTimesheet) throw new Error("Timesheet entry not found");
       return { message: "Timesheet entry deleted successfully" };
     } catch (error) {
       console.error("Error deleting timesheet entry:", error.message);

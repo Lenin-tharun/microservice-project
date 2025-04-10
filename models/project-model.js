@@ -6,7 +6,7 @@ export const projectModel = {
   createProject: async (project_code, name, customer_id, description, due_date, status, tenant_id, created_by) => {
     try {
 
-     
+      console.log(due_date)
       const query = `
         INSERT INTO projects (project_code, name, customer_id, description, due_date, status, created_at, updated_at, tenant_id, created_by)
         VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW(), $7, $8) 
@@ -38,11 +38,11 @@ export const projectModel = {
       
       const query = `
     SELECT 
-    p.id AS project_id,
+    p.id ,
     p.project_code,
-    p.name AS project_name,
+    p.name,
     p.description AS project_description,
-    p.due_date AS project_due_date,
+    p.due_date,
     p.status AS project_status,
     p.customer_id,
     p.created_at AS project_created_at,
@@ -62,13 +62,13 @@ export const projectModel = {
 
     -- Aggregate users into an array of UUIDs
     COALESCE(
-        array_agg(DISTINCT pu.user_uuid) FILTER (WHERE pu.user_uuid IS NOT NULL),
+        array_agg(DISTINCT pu.employee_id) FILTER (WHERE pu.employee_id IS NOT NULL),
         '{}'
-    ) AS user_ids
+    ) AS assignedemployees
 
 FROM projects p
 LEFT JOIN tasks t ON t.project_id = p.id
-LEFT JOIN project_users pu ON pu.project_id = p.id
+LEFT JOIN project_employee pu ON pu.project_id = p.id
 
 WHERE p.id = $1
 
@@ -77,7 +77,7 @@ GROUP BY p.id;
       const result = await executeQuery(query, [id]);
       return result[0] || null;
     } catch (error) {
-      console.error("[ERROR] getProjectById:", error.message);
+      console.error("[ERROR] getProjectById:", error.message); 
       throw new Error("Failed to fetch project by ID: " + error.message);
     }
   },
