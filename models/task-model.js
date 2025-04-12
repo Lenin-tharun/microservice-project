@@ -1,14 +1,14 @@
 import { executeQuery } from "../utils/query-Executer.js";
 
 export const taskModel = {
-  createTask: async (taskName, description, dueDate, projectId, tenantId, createdBy) => {
+  createTask: async (taskName, description, dueDate, projectId, tenantId,  createdBy, estimated_duration,) => {
     try {
       const query = `
-        INSERT INTO tasks (task_name, description, due_date, project_id, tenant_id, created_by, created_at, updated_at)
-        VALUES ($1, $2, $3, $4, $5, $6, now(), now())
+        INSERT INTO tasks (task_name, description, due_date, project_id, tenant_id, created_by, estimated_duration, created_at, updated_at)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, now(), now())
         RETURNING *;
       `;
-      const values = [taskName, description, dueDate, projectId, tenantId, createdBy];
+      const values = [taskName, description, dueDate, projectId, tenantId,  createdBy, estimated_duration];
       const result = await executeQuery(query, values);
       return result[0];
     } catch (error) {
@@ -52,7 +52,7 @@ export const taskModel = {
 
   getTasksByProjectId: async (project_id) => {
     try {
-      const query = `
+  /*     const query = `
       SELECT 
     t.id AS task_id,
     t.task_name,
@@ -72,7 +72,28 @@ LEFT JOIN timesheets ts
     ON ts.task_id = t.id AND ts.end_time IS NULL
 WHERE t.project_id = $1
 ORDER BY t.id;
-`;
+`; */
+      const query = `
+      SELECT 
+    t.id AS task_id,
+    t.task_name,
+    t.estimated_duration,
+    CASE 
+        WHEN ts.id IS NOT NULL THEN 'Running'
+        ELSE 'Not Running'
+    END AS status,
+    ts.notes,
+    ARRAY_AGG(DISTINCT et.employee_id) FILTER (WHERE ts.id IS NOT NULL) AS employee_ids
+FROM tasks t
+LEFT JOIN timesheets ts 
+    ON ts.task_id = t.id AND ts.end_time IS NULL
+LEFT JOIN employee_timesheets et 
+    ON ts.id = et.timesheet_id
+WHERE t.project_id = $1
+GROUP BY t.id, t.task_name, ts.id, estimated_duration, ts.notes
+ORDER BY t.id;
+
+      `
       const values = [project_id];
       return await executeQuery(query, values);
     } catch (error) {

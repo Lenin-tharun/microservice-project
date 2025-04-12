@@ -33,7 +33,7 @@ export const projectController = {
         .status(200)
         .json({
           success: true,
-          data: project,
+          data: Projects,
           message: "Project retrieved succesfully",
         });
     } catch (error) {

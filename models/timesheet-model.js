@@ -135,6 +135,80 @@ export const timesheetModel = {
 
   // GET TIMESHEET BY TENANT ID
   getTimesheetByTenantId: async (tenant_id) => {
+    /* const query = `
+SELECT 
+    ts.id AS id,
+    ts.date AS timesheet_date,
+    p.id AS project_id,
+    p.name AS project_name,
+    p.customer_id,
+    t.id AS task_id,
+    t.task_name,
+    ARRAY_AGG(et.employee_id) AS employee_ids,
+    TO_CHAR(
+        INTERVAL '1 second' * 
+        COALESCE(
+            EXTRACT(EPOCH FROM ts.duration),
+            EXTRACT(EPOCH FROM (COALESCE(ts.end_time, NOW()) - ts.start_time))
+        ),
+        'HH24:MI'
+    ) AS total_time_spent,
+    CASE 
+        WHEN ts.end_time IS NULL THEN 'Running'
+        ELSE 'Not Running'
+    END AS status
+FROM timesheets ts
+JOIN tasks t ON ts.task_id = t.id
+JOIN projects p ON t.project_id = p.id
+JOIN employee_timesheets et ON ts.id = et.timesheet_id
+WHERE p.tenant_id = $1
+GROUP BY ts.id, ts.date, p.id, p.name, p.customer_id, t.id, t.task_name, ts.start_time, ts.end_time, ts.duration;
+
+    `; */
+    const query = `
+    SELECT 
+    ts.id AS id,
+    ts.date AS timesheet_date,
+    p.id AS project_id,
+    p.name AS project_name,
+    p.customer_id,
+    t.id AS task_id,
+    t.task_name,
+    ARRAY_AGG(et.employee_id) FILTER (WHERE et.employee_id IS NOT NULL) AS employee_ids,
+    TO_CHAR(
+        INTERVAL '1 second' * 
+        COALESCE(
+            EXTRACT(EPOCH FROM ts.duration),
+            EXTRACT(EPOCH FROM (COALESCE(ts.end_time, NOW()) - ts.start_time))
+        ),
+        'HH24:MI'
+    ) AS total_time_spent,
+    CASE 
+        WHEN ts.end_time IS NULL THEN 'Running'
+        ELSE 'Not Running'
+    END AS status
+FROM timesheets ts
+LEFT JOIN tasks t ON ts.task_id = t.id
+LEFT JOIN projects p ON t.project_id = p.id
+LEFT JOIN employee_timesheets et ON ts.id = et.timesheet_id
+WHERE ts.tenant_id = $1
+GROUP BY ts.id, ts.date, p.id, p.name, p.customer_id, t.id, t.task_name, ts.start_time, ts.end_time, ts.duration;
+
+    `
+    //console.log(tenant_id)
+    const values = [tenant_id];
+    try {
+      const result = await executeQuery(query, values);
+      //console.log(result)
+      // Depending on your requirements, you can return all rows or just the first record.
+      return result; // Returns all aggregated rows
+    } catch (error) {
+      console.error("Error fetching timesheet by tenant ID:", error.message);
+      throw new Error("Database error while fetching timesheet by tenant ID");
+    }
+  },
+
+ /* getTimesheetByTenantIdGroupByTask: async (tenant_id) => {
     const query = `
       SELECT 
     p.id AS project_id,
@@ -172,7 +246,7 @@ GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
       console.error("Error fetching timesheet by tenant ID:", error.message);
       throw new Error("Database error while fetching timesheet by tenant ID");
     }
-  },
+  },*/
 
   // UPDATE TIMESHEET ENTRY
   updateTimesheet: async (timesheetId, updates) => {

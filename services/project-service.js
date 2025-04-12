@@ -7,7 +7,7 @@ export const projectService = {
   // ✅ CREATE PROJECT
   createProject: async (data) => {
     try {
-      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedEmployees, tasks, created_by } = data;
+      const { project_code, name, customer_id, description, due_date, status, tenant_id, assignedEmployees, tasks, created_by, estimated_duration } = data;
       if (!isUuid(customer_id)) {
         throw new Error("Invalid UUID format for project ID");
       }
@@ -20,7 +20,8 @@ export const projectService = {
         due_date,
         status,
         tenant_id,
-        created_by
+        created_by,
+        estimated_duration
       );
 
       // Save Project Users
