@@ -36,7 +36,7 @@ export const projectModel = {
   getProjectById: async (id) => {
     try {
       
-      const query = `
+      /* const query = `
     SELECT 
     p.id ,
     p.project_code,
@@ -73,8 +73,69 @@ LEFT JOIN project_employee pu ON pu.project_id = p.id
 WHERE p.id = $1
 
 GROUP BY p.id;
-      `;
+      `; */
+      const query = `
+      SELECT 
+    p.id,
+    p.project_code,
+    p.name,
+    p.description AS project_description,
+    p.due_date,
+    p.status AS project_status,
+    p.customer_id,
+    p.created_at AS project_created_at,
+    p.updated_at AS project_updated_at,
+
+    -- Aggregate tasks with nested timesheets
+    COALESCE(
+        json_agg(
+            DISTINCT jsonb_build_object(
+                'task_id', t.id,
+                'task_name', t.task_name,
+                'task_description', t.description,
+                'timesheets', (
+                    SELECT COALESCE(
+                        json_agg(
+                            jsonb_build_object(
+                                'timesheet_id', ts.id,
+                                'start_time', ts.start_time,
+                                'end_time', ts.end_time,
+                                'duration', ts.duration,
+                                'date', ts.date,
+                                'notes', ts.notes,
+                                'employee_ids', (
+                                    SELECT array_agg(et.employee_id)
+                                    FROM employee_timesheets et
+                                    WHERE et.timesheet_id = ts.id
+                                )
+                            )
+                        ), '[]'
+                    )
+                    FROM timesheets ts
+                    WHERE ts.task_id = t.id
+                )
+            )
+        ) FILTER (WHERE t.id IS NOT NULL),
+        '[]'
+    ) AS tasks,
+
+    -- Aggregate users into an array of UUIDs
+    COALESCE(
+        array_agg(DISTINCT pu.employee_id) FILTER (WHERE pu.employee_id IS NOT NULL),
+        '{}'::uuid[]
+    ) AS assignedemployees
+
+FROM projects p
+LEFT JOIN tasks t ON t.project_id = p.id
+LEFT JOIN project_employee pu ON pu.project_id = p.id
+
+WHERE p.id = $1
+
+GROUP BY p.id;
+
+      `
       const result = await executeQuery(query, [id]);
+      console.log('Project Details',result);
       return result[0] || null;
     } catch (error) {
       console.error("[ERROR] getProjectById:", error.message); 

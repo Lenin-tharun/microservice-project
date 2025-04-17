@@ -24,4 +24,19 @@ router.put("/:task_id", taskController.updateTask);
 // Delete a task by ID
 router.delete("/:task_id", taskController.deleteTask);
 
+//getTaskStatusSummary
+router.get("/statussummary/:project_id", taskController.getTaskStatusSummary);
+
+//getTaskDurationReport
+router.get("/duration/:project_id", taskController.getTaskDurationReport);
+
+//getEmployeeTaskReport
+//router.get("/employees/:project_id", taskController.getEmployeeTaskReport);
+
+//getOverdueTasks
+router.get("/overdue/:project_id", taskController.getOverdueTasks);
+
+//getMonthlyTaskStats
+router.get("/monthly/:tenant_id", taskController.getMonthlyTaskStatus);
+
 export default router;

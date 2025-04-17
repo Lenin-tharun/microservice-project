@@ -26,4 +26,14 @@ router.put("/:id", timesheetController.updateTimesheet);
 // Delete a timesheet entry by ID
 router.delete("/:id", timesheetController.deleteTimesheet);
 
+//getTotalTimeSpentByTask
+router.get("/toto-time/task/:tenant_id", timesheetController.getTotalTimeSpentByTask);
+//getTotalTimeSpentByproject
+router.get("/total_time/project/:tenant_id", timesheetController.getTotalTimeSpentByProject);
+//getTimesheetStatusReport
+router.get("/status/:tenant_id", timesheetController.getTimesheetStatusReport);
+//getTimesheetDurationByDay
+router.get("/duration/:tenant_id", timesheetController.getTimesheetDurationByDay);
+
+
 export default router;

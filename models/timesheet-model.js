@@ -303,10 +303,109 @@ GROUP BY p.id, p.name, p.customer_id, t.id, t.task_name;
     const values = [timesheetId];
     try {
       const result = await executeQuery(query, values);
-      return result.rows.length ? result.rows[0] : null;
+      return result[0];
     } catch (error) {
       console.error("Error deleting timesheet:", error.message);
       throw new Error("Database error while deleting timesheet");
     }
   },
+
+
+ // Get Total Time Spent Grouped by TASK
+ getTotalTimeSpentByTask: async (tenant_id) => {
+  const query = `
+    SELECT 
+      t.id AS task_id,
+      t.task_name,
+      SUM(EXTRACT(EPOCH FROM ts.duration)) AS total_seconds_spent,
+      TO_CHAR(TO_TIMESTAMP(SUM(EXTRACT(EPOCH FROM ts.duration)) / 1000), 'HH24:MI') AS total_time_spent
+    FROM timesheets ts
+    JOIN tasks t ON ts.task_id = t.id
+    WHERE t.tenant_id = $1
+    GROUP BY t.id, t.task_name
+    ORDER BY total_seconds_spent DESC;
+  `;
+
+  try {
+    const result = await executeQuery(query, [tenant_id]);
+    return result.rows;
+  } catch (error) {
+    console.error("Error fetching total time spent by task:", error.message);
+    throw new Error("Database error while fetching total time spent by task");
+  }
+},
+
+// Get Total Time Spent Grouped by PROJECT
+getTotalTimeSpentByProject: async (tenant_id) => {
+  const query = `
+    SELECT 
+      p.id AS project_id,
+      p.name AS project_name,
+      SUM(EXTRACT(EPOCH FROM ts.duration)) AS total_seconds_spent,
+      TO_CHAR(TO_TIMESTAMP(SUM(EXTRACT(EPOCH FROM ts.duration)) / 1000), 'HH24:MI') AS total_time_spent
+    FROM timesheets ts
+    JOIN tasks t ON ts.task_id = t.id
+    JOIN projects p ON t.project_id = p.id
+    WHERE p.tenant_id = $1
+    GROUP BY p.id, p.name
+    ORDER BY total_seconds_spent DESC;
+  `;
+
+  try {
+    const result = await executeQuery(query, [tenant_id]);
+    return result.rows;
+  } catch (error) {
+    console.error("Error fetching total time spent by project:", error.message);
+    throw new Error("Database error while fetching total time spent by project");
+  }
+},
+
+// Get Timesheet Status Report (Running vs Not Running)
+getTimesheetStatusReport: async (tenant_id) => {
+  const query = `
+    SELECT 
+      ts.id AS timesheet_id,
+      ts.date AS timesheet_date,
+      t.id AS task_id,
+      t.task_name,
+      CASE 
+        WHEN ts.end_time IS NULL THEN 'Running'
+        ELSE 'Completed'
+      END AS status
+    FROM timesheets ts
+    JOIN tasks t ON ts.task_id = t.id
+    WHERE ts.tenant_id = $1;
+  `;
+  const values = [tenant_id];
+  try {
+    const result = await executeQuery(query, values);
+    return result.rows;
+  } catch (error) {
+    console.error("Error fetching timesheet status:", error.message);
+    throw new Error("Database error while fetching report data");
+  }
+},
+
+// Get Timesheet Duration Breakdown by Day
+getTimesheetDurationByDay: async (tenant_id) => {
+  const query = `
+    SELECT 
+      ts.date AS timesheet_date,
+      SUM(EXTRACT(EPOCH FROM ts.duration)) AS total_seconds_spent,
+      TO_CHAR(TO_TIMESTAMP(SUM(EXTRACT(EPOCH FROM ts.duration)) / 1000), 'HH24:MI') AS total_time_spent
+    FROM timesheets ts
+    WHERE ts.tenant_id = $1
+    GROUP BY ts.date
+    ORDER BY ts.date DESC;
+  `;
+  const values = [tenant_id];
+  try {
+    const result = await executeQuery(query, values);
+    return result.rows;
+  } catch (error) {
+    console.error("Error fetching timesheet duration by day:", error.message);
+    throw new Error("Database error while fetching report data");
+  }
+},
+
 };

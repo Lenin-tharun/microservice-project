@@ -26,7 +26,8 @@ export const projectService = {
 
       // Save Project Users
       const saveProjectEmployee = await Promise.all(
-        assignedEmployees.map(async (emp) => {
+        //assignedEmployees.map(async (emp) => {
+          (assignedEmployees || []) .map(async (emp) => { 
           return projectEmployeeService.saveProjectEmployee(
             projectResult.id,
             emp,
@@ -36,7 +37,8 @@ export const projectService = {
       );
       // Save Project Tasks
       const projectTask = await Promise.all(
-        tasks.map(async (task) => {
+        //tasks.map(async (task) => {
+          (tasks || []) .map(async (task) =>{
           const currentTask = {
             task_name: task.taskName,           // Assuming the API expects 'name'
             description: task.description,

@@ -106,4 +106,64 @@ export const taskService = {
       throw new Error(error.message || "Error deleting task");
     }
   },
+
+  // Task Count by Status (Running / Not Running)
+
+  getTaskStatusSummary: async (project_id) => {
+    try {
+      if (!project_id) throw new Error("Project ID is required");
+      return await taskModel.getTaskStatusSummary(project_id);
+    } catch (error) {
+      console.error(`[ERROR] getTaskStatusSummary: ${error.message}`, { error });
+      throw new Error("Error fetching task status summary");
+    }
+  },
+  
+//Task Duration Report
+  getTaskDurationReport: async(project_id) => {
+    try{
+      if(!project_id) throw new Error("project id required");
+      return await taskModel.getTaskDurationReport(project_id);
+    } catch(error){
+      console.error(`[ERROR] getTaskDurationReport: ${error.message}`, {error});
+      throw new Error("Error fetching task Duration ")
+    }
+  },
+
+  /*// Tasks Assigned to Employees (with Timesheets)
+getEmployeeTaskReport: async(project_id) => {
+  try{
+    if(!project_id) throw new Error ("project id required");
+    return await taskModel.getEmployeeTaskReport(project_id);
+  } catch(error) {
+    console.error(`[ERROR] getEmployeeTaskReport: ${error.message}`, {error});
+    throw new Error (" Error Fetching Employee Task Report")
+  }
+},*/
+
+//Overdue Tasks Report
+getOverdueTasks: async (todayDate, project_id) => {
+  try{
+    if(!todayDate) throw new Error ("Today's date is required");
+    if(!project_id) throw new Error ("project ID is required");
+
+    return await taskModel.getOverdueTasks(todayDate, project_id);
+  } catch (error) {
+    console.error(`[ERROR] getOverdueTasks: ${error.message}`, {error});
+    throw new Error ("Error Fetching OverdueTasks");
+  }
+},
+
+//Monthly Task Creation Report
+getMonthlyTaskStatus : async(tenant_id) => {
+  try{
+    if(!tenant_id) throw new Error ("Tenant_id is Required");
+    return await taskModel.getMonthlyTaskStatus(tenant_id);
+  } catch (error) {
+    console.error(`[ERROR] getMonthlyTaskStatus: ${error.message}`, {error})
+    throw new Error (" Error Fetching MonthlyTaskStatus")
+  }
+},
+
+
 };

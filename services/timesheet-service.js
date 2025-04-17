@@ -156,4 +156,52 @@ export const timesheetService = {
       throw new Error(error.message || "Error deleting timesheet entry");
     }
   },
+
+  // Get Total Time Spent Grouped by TASK
+
+  getTotalTimeSpentByTask: async (tenant_id) => {
+    try {
+      if (!tenant_id) throw new Error("Invalid tenant_id");
+      return await timesheetModel.getTotalTimeSpentByTask(tenant_id);
+    } catch (error) {
+      console.error("Error in getTotalTimeSpentByTask:", error.message);
+      throw new Error("Error fetching total time spent by task");
+    }
+  },
+  
+  // Get Total Time Spent Grouped by PROJECT
+  getTotalTimeSpentByProject: async (tenant_id) => {
+    try {
+      if (!tenant_id) throw new Error("Invalid tenant_id");
+      return await timesheetModel.getTotalTimeSpentByProject(tenant_id);
+    } catch (error) {
+      console.error("Error in getTotalTimeSpentByProject:", error.message);
+      throw new Error("Error fetching total time spent by project");
+    }
+  },
+  
+
+  // Fetch the timesheet status report (Running vs Completed)
+  getTimesheetStatusReport: async (tenant_id) => {
+    try {
+      if(!tenant_id) throw new Error ("Invalid tenant_id")
+      const data = await timesheetModel.getTimesheetStatusReport(tenant_id);
+      return data;
+    } catch (error) {
+      console.error("Error in timesheet service:", error.message);
+      throw new Error("Error fetching timesheet status report");
+    }
+  },
+
+  // Fetch timesheet duration breakdown by day
+  getTimesheetDurationByDay: async (tenant_id) => {
+    try {
+      if(!tenant_id) throw new Error ("Invalid tenant_id")
+      const data = await timesheetModel.getTimesheetDurationByDay(tenant_id);
+      return data;
+    } catch (error) {
+      console.error("Error in timesheet service:", error.message);
+      throw new Error("Error fetching timesheet duration by day");
+    }
+  },
 };

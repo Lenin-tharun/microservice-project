@@ -236,4 +236,67 @@ export const timesheetController = {
       });
     }
   },
+
+
+// Get total time spent on tasks grouped by task 
+ getTotalTimeSpentByTask : async (req, res) => {
+  try {
+    const tenant_id = req.params.tenant_id;
+    const result = await timesheetService.getTotalTimeSpentByTask(tenant_id);
+    return res.status(200).json({
+      success: true,
+      data: result,
+      message: "Total time spent by task retrieved successfully",
+    });
+  } catch (error) {
+    console.error("Error in getTotalTimeSpentByTask:", error.message);
+    return res.status(500).json({ success: false, error: error.message });
+  }
+},
+
+// Get total time spent on tasks grouped by project
+getTotalTimeSpentByProject : async (req, res) => {
+  try {
+    const tenant_id = req.params.tenant_id;
+    const result = await timesheetService.getTotalTimeSpentByProject(tenant_id);
+    return res.status(200).json({
+      success: true,
+      data: result,
+      message: "Total time spent by project retrieved successfully",
+    });
+  } catch (error) {
+    console.error("Error in getTotalTimeSpentByProject:", error.message);
+    return res.status(500).json({ success: false, error: error.message });
+  }
+},
+
+
+// Get timesheet status report (Running vs Not Running)
+getTimesheetStatusReport : async (req, res) => {
+  try {
+    const tenant_id = req.params.tenant_id;  // Assuming tenant_id is passed in the URL
+    const result = await timesheetService.getTimesheetStatusReport(tenant_id);
+    return res.status(200).json({ success: true,
+      data: result,
+      message: "Timesheet status Report retrieved successfully", });
+  } catch (error) {
+    console.error("Error in controller:", error.message);
+    return res.status(500).json({ error: error.message });
+  }
+},
+
+// Get timesheet duration breakdown by day
+ getTimesheetDurationByDay : async (req, res) => {
+  try {
+    const tenant_id = req.params.tenant_id;  // Assuming tenant_id is passed in the URL
+    const result = await timesheetService.getTimesheetDurationByDay(tenant_id);
+    return res.status(200).json({ success: true,
+      data: result,
+      message: "Timesheet Duration By Day retrieved successfully", });
+  } catch (error) {
+    console.error("Error in controller:", error.message);
+    return res.status(500).json({ error: error.message });
+  }
+},
+
 };

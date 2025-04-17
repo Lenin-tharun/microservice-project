@@ -142,4 +142,125 @@ ORDER BY t.id;
       throw error;
     }
   },
+
+
+// Task Count by Status (Running / Not Running)
+
+getTaskStatusSummary: async (project_id) => {
+  try {
+    const query = `
+      SELECT 
+        'Running' AS status,
+        COUNT(*) FILTER (WHERE ts.id IS NOT NULL) AS count
+      FROM tasks t
+      LEFT JOIN timesheets ts ON t.id = ts.task_id AND ts.end_time IS NULL
+      WHERE t.project_id = $1
+      
+      UNION ALL
+      
+      SELECT 
+        'Not Running' AS status,
+        COUNT(*) FILTER (WHERE ts.id IS NULL) AS count
+      FROM tasks t
+      LEFT JOIN timesheets ts ON t.id = ts.task_id AND ts.end_time IS NULL
+      WHERE t.project_id = $1;
+    `;
+    return await executeQuery(query, [project_id]);
+  } catch (error) {
+    console.error(`[ERROR] getTaskStatusSummary: ${error.message}`, { error });
+    throw new Error("Failed to Fetch task status summary. Please try again later.");
+  }
+},
+
+
+//Task Duration Report
+
+getTaskDurationReport: async (project_id) => {
+  try{
+  const query = `
+    SELECT 
+      t.id AS task_id,
+      t.task_name,
+      t.estimated_duration,
+      COALESCE(SUM(EXTRACT(EPOCH FROM (ts.end_time - ts.start_time)) / 3600), 0) AS actual_duration_hours
+    FROM tasks t
+    LEFT JOIN timesheets ts ON t.id = ts.task_id
+    WHERE t.project_id = $1
+    GROUP BY t.id;
+  `;
+  return await executeQuery(query, [project_id]);
+  
+} catch (error) {
+  console.error(`[ERROR] getTaskDurationReport: ${error.message}`, {error});
+  throw new Error (" Failed to Fetch Task Duration Report");
+}
+},
+
+/*// Tasks Assigned to Employees (with Timesheets)
+getEmployeeTaskReport: async (project_id) => {
+  try{
+  const query = `
+    SELECT 
+      t.id AS task_id,
+      t.task_name,
+      e.id AS employee_id,
+      e.name AS employee_name,
+      COUNT(ts.id) AS timesheet_entries
+    FROM tasks t
+    LEFT JOIN timesheets ts ON t.id = ts.task_id
+    LEFT JOIN employee_timesheets et ON ts.id = et.timesheet_id
+    LEFT JOIN employees e ON et.employee_id = e.id
+    WHERE t.project_id = $1
+    GROUP BY t.id, t.task_name, e.id, e.name
+    ORDER BY t.id, e.id;
+  `;
+  return await executeQuery(query, [project_id]);
+} catch(error) {
+  console.error(`[ERROR] getEmployeeTaskReport: ${error.message}`, {error});
+  throw new Error("Failed to fetch Employee Task Report")
+}
+},*/
+
+//Overdue Tasks Report
+getOverdueTasks: async (todayDate, project_id) => {
+  try{
+  const query = `
+    SELECT 
+      t.id,
+      t.task_name,
+      TO_CHAR(t.due_date, 'YYYY-MM-DD') as due_date
+    FROM tasks t
+    LEFT JOIN timesheets ts ON t.id = ts.task_id AND ts.end_time IS NULL
+    WHERE t.due_date < $1 AND ts.id IS NULL AND t.project_id = $2
+    ORDER BY t.due_date ASC;
+  `;
+  const result = await executeQuery(query, [todayDate, project_id]);
+  console.log('Query result (service):', result);
+  return result;
+} catch (error) {
+  console.error(`[ERROR] getOverdueTasks: ${error.message}`, {error});
+  throw new Error ("Failed to fetch over Due Task");
+}
+},
+
+//Monthly Task Creation Report
+getMonthlyTaskStatus: async (tenant_id) => {
+  try{
+  const query = `
+    SELECT 
+      TO_CHAR(DATE_TRUNC('month', created_at), 'YYYY-MM') AS month,
+      COUNT(*) AS task_count
+    FROM tasks
+    WHERE tenant_id = $1
+    GROUP BY month
+    ORDER BY month DESC;
+  `;
+  return await executeQuery(query, [tenant_id]);
+} catch(error){
+  console.error(`[ERROR] getMonthlyTaskStatus: ${error.message}`, {error});
+  throw new Error("Failed to fetch Monthly TaskStatus")
+}
+},
+
+
 };
